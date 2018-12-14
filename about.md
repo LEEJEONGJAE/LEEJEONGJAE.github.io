@@ -1,7 +1,22 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: more information
+permalink: /moreInfo/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+* name : LEE JEONGJAE
+* age  : 30
+
+* Work Experience
+<table>
+   <thead>
+    <tr>
+      <th>기간</th>
+      <th>프로젝트명</th>
+      <th>업무</th>
+    </tr>
+   </thead>
+   
+    
+
+- 2016/07/04
