@@ -25,7 +25,7 @@ permalink: /moreInfo/
    </thead>
    <tbody>
     <tr>
-      <td>2016.07.04td>
+      <td>2016.07.04</td>
       <td>2016.08.01</td>
       <td>스마트긴급구조통제단시스템구축</td>
       <td>스마트긴급구조통제단시스템구축</td>
