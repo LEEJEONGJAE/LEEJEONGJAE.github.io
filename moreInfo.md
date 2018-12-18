@@ -37,8 +37,8 @@ permalink: /moreInfo/
     <tr>
        <th>
           업무
-       </td>
-       <td colspan="2">
+       </th>
+       <td colspan="2" class="left">
          - 바로뷰서비스 개발<br>
          - 타기관공인인증서등록 개발<br>
          - 큰글씨설정 개발<br>
