@@ -22,9 +22,9 @@ permalink: /moreInfo/
    </thead>
    <tbody>
     <tr>
-      <td>2018.06.25</td>
-      <td>2018.10.19</td>
-      <td>산림조합 비대면계좌개설시스템 구축</td>
+      <th class="title">2018.06.25</th>
+      <th class="title">2018.10.19</th>
+      <th class="title">산림조합 비대면계좌개설시스템 구축</th>
     </tr>
     <tr>
        <th>
