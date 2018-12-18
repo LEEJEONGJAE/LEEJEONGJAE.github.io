@@ -22,7 +22,7 @@ permalink: /moreInfo/
    </thead>
    <tbody>
     <tr>
-      <th class="contents">2018.06.25</th>
+      <th>2018.06.25</th>
       <th>2018.10.19</th>
       <th>산림조합 비대면계좌개설시스템 구축</th>
     </tr>
