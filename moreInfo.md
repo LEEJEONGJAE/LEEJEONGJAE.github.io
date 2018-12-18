@@ -27,18 +27,18 @@ permalink: /moreInfo/
       <th>산림조합 비대면계좌개설시스템 구축</th>
     </tr>
     <tr>
-       <th class="contents">
+       <th colspan="2" class="contents">
           개발환경
        </th>
-       <td colspan="2" class="left">
+       <td class="left">
           -
        </td>
     </tr>
     <tr>
-       <th class="contents">
+       <th colspan="2" class="contents">
           업무
        </th>
-       <td colspan="2" class="left">
+       <td class="left">
          - 바로뷰서비스 개발<br>
          - 타기관공인인증서등록 개발<br>
          - 큰글씨설정 개발<br>
