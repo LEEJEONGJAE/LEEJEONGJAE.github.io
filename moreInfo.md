@@ -36,6 +36,7 @@ permalink: /moreInfo/
     </tr>
     <tr>
        <td colspan="2">
+          -
        </td>
        <td>
          - 바로뷰서비스 개발<br>
@@ -59,6 +60,7 @@ permalink: /moreInfo/
     </tr>
     <tr>
        <td colspan="2">
+         -
        </td>
        <td>
          - 미래에셋생명 홈페이지 SM 근무
@@ -79,6 +81,7 @@ permalink: /moreInfo/
     </tr>
     <tr>
        <td colspan="2">
+         -
        </td>
        <td>
          - 관리자페이지 개발
@@ -100,6 +103,7 @@ permalink: /moreInfo/
     </tr>
     <tr>
        <td colspan="2">
+         -
        </td>
        <td>
          - 바로뷰서비스 개발<br>
