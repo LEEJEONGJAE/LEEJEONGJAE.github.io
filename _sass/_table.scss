@@ -6,4 +6,13 @@
   th, td {
     border-bottom: 1px solid #444444;
     padding: 10px;
+    text-align:center;
+  }
+
+  th, td .left{
+    text-align:left;
+  }
+
+  th, td .right{
+    text-align:right;
   }
