@@ -27,12 +27,12 @@ permalink: /moreInfo/
       <td>산림조합 비대면계좌개설시스템 구축</td>
     </tr>
     <tr>
-       <td colspan="2">
+       <th colspan="2">
           개발환경
-       </td>
-       <td>
+       </th>
+       <th>
           업무
-       </td>
+       </th>
     </tr>
     <tr>
        <td colspan="2">
@@ -49,21 +49,64 @@ permalink: /moreInfo/
       <td>2018.04.30</td>
       <td>미래에셋생명 홈페이지 운영</td>
     </tr>
-    <tr colspan="3">
-    </tr>      
+    <tr>
+       <th colspan="2">
+          개발환경
+       </th>
+       <th>
+          업무
+       </th>
+    </tr>
+    <tr>
+       <td colspan="2">
+       </td>
+       <td>
+         - 미래에셋생명 홈페이지 SM 근무
+       </td>
+    </tr>     
     <tr>
       <td>2016.09.01</td>
       <td>2016.12.14</td>
-      <td>스마트긴급구조통제단시스템구축</td>
+      <td>수출입위험물관리시스템 구축</td>
     </tr>
-    <tr colspan="3">
+    <tr>
+       <th colspan="2">
+          개발환경
+       </th>
+       <th>
+          업무
+       </th>
+    </tr>
+    <tr>
+       <td colspan="2">
+       </td>
+       <td>
+         - 관리자페이지 개발
+         - 위험물조회기능 개발
+       </td>
     </tr>  
     <tr>
       <td>2016.07.04</td>
       <td>2016.08.31</td>
       <td>스마트긴급구조통제단시스템구축</td>
     </tr>
-    <tr colspan="3">
+    <tr>
+       <th colspan="2">
+          개발환경
+       </th>
+       <th>
+          업무
+       </th>
+    </tr>
+    <tr>
+       <td colspan="2">
+       </td>
+       <td>
+         - 바로뷰서비스 개발<br>
+         - 타기관공인인증서등록 개발<br>
+         - 큰글씨설정 개발<br>
+         - 입금계좌지정서비스 개발
+       </td>
     </tr>        
    </tbody>
 </table>
