@@ -4,10 +4,10 @@ title: more information
 permalink: /moreInfo/
 ---
 
-# 이름 : 이정재
-# 나이 : 30 (1989.09.08)
+### 이름 : 이정재
+### 나이 : 30 (1989.09.08)
 
-# 경력
+### 경력
 <table style="border:solid 1px black;">
    <colgroup>
       <col width="17%">
