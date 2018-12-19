@@ -4,10 +4,10 @@ title: 이력서
 permalink: /moreInfo/
 ---
 
-##### 이름 : 이정재
-##### 나이 : 30 (1989.09.08)
+<p class="font_title">이름 : 이정재</p>
+<p class="font_title">나이 : 30 (1989.09.08)</p>
 
-##### 경력
+<p class="font_title">경력</p>
 <table>
     <tr>
       <th>프로젝트명</th>
