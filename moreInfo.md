@@ -11,16 +11,22 @@ permalink: /moreInfo/
 <table>
     <tr>
       <th>프로젝트명</th>
+    </tr>
+    <tr>
       <td>산림조합 비대면계좌개설시스템 구축</td>
     </tr>   
     <tr>
       <th>기간</th>
+    </tr>
+    <tr>
       <td>2018.06.25 ~ 2018.10.19</td>
    </tr>
    <tr>
        <th>
           개발환경
        </th>
+   </tr>
+   <tr>
        <td class="left">
           -
        </td>
@@ -29,6 +35,8 @@ permalink: /moreInfo/
        <th>
           업무
        </th>
+    </tr>
+    <tr>
        <td class="left">
          - 바로뷰서비스 개발<br>
          - 타기관공인인증서등록 개발<br>
