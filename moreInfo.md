@@ -7,7 +7,7 @@ permalink: /moreInfo/
 <h1>이름 : 이정재</h1>
 <h1>나이 : 30 (1989.09.08)</h1>
 
-<p class="font_title">경력상세</p>
+<h1>경력상세</h1>
 <!-- 산림조합 비대면계좌개설시스템 구축 -->
 <table>
     <tr>
