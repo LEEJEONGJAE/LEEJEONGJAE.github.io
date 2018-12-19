@@ -9,25 +9,16 @@ permalink: /moreInfo/
 
 ##### 경력
 <table>
-   <colgroup>
-      <col width="17%">
-      <col width="17%">
-      <col width="66%">
-   </colgroup>
-   <thead>
     <tr>
-      <th colspan="2">기간</th>
       <th>프로젝트명</th>
-    </tr>
-   </thead>
-   <tbody>
+      <td>산림조합 비대면계좌개설시스템 구축</td>
+    </tr>   
     <tr>
-      <th>2018.06.25</th>
-      <th>2018.10.19</th>
-      <th>산림조합 비대면계좌개설시스템 구축</th>
-    </tr>
-    <tr>
-       <th colspan="2" class="contents">
+      <th>기간</th>
+      <td>2018.06.25 ~ 2018.10.19</td>
+   </tr>
+   <tr>
+       <th>
           개발환경
        </th>
        <td class="left">
@@ -35,7 +26,7 @@ permalink: /moreInfo/
        </td>
     </tr>
     <tr>
-       <th colspan="2" class="contents">
+       <th>
           업무
        </th>
        <td class="left">
@@ -45,6 +36,7 @@ permalink: /moreInfo/
          - 입금계좌지정서비스 개발
        </td>
     </tr>
+   <!--
     <tr>
       <td>2017.01.01</td>
       <td>2018.04.30</td>
@@ -111,6 +103,6 @@ permalink: /moreInfo/
          - 큰글씨설정 개발<br>
          - 입금계좌지정서비스 개발
        </td>
-    </tr>        
-   </tbody>
+    </tr>  
+-->
 </table>
