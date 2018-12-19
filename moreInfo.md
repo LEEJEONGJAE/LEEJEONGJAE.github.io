@@ -4,8 +4,8 @@ title: 이력서
 permalink: /moreInfo/
 ---
 
-<p class="font_title">이름 : 이정재</p>
-<p class="font_title">나이 : 30 (1989.09.08)</p>
+<h1>이름 : 이정재</h1>
+<h1>나이 : 30 (1989.09.08)</h1>
 
 <p class="font_title">경력상세</p>
 <!-- 산림조합 비대면계좌개설시스템 구축 -->
