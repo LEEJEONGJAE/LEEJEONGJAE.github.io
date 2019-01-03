@@ -1,6 +1,6 @@
 ---
 layout: page
-title: experience
+title: 경력상세
 permalink: /moreInfo/
 ---
 
