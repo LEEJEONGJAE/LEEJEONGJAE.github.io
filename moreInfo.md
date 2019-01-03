@@ -21,11 +21,11 @@ permalink: /moreInfo/
              <td>2018.06.25 ~ 2018.10.19</td>
              <td>
                <ul>
-                  <li>* 개발환경</li>
+                  <li>개발환경</li>
                      <div class="list">
                         - ()
                      </div>
-                  <li>* 개발업무</li>
+                  <li>개발업무</li>
                      <div class="list">
                         - 바로뷰서비스 개발<br>
                         - 타기관공인인증서등록 개발<br>
