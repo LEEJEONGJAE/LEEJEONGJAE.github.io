@@ -18,8 +18,8 @@
 }
 
 table {
-  align: center;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 table td, table th {
   color: #2b686e;
@@ -49,6 +49,8 @@ table tr:nth-child(2n+1) {
 @media screen and (max-width: 700px) {
   table, tr, td {
     display: block;
+    width: 80%;
+    margin: auto;    
   }
 
   td:first-child {
