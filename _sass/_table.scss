@@ -121,10 +121,12 @@
     top: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+    width: 100%;
   }
   .info .table-experience td:not(:first-child) {
     margin: 0;
     padding: 5px 1em;
+    width: 100%;
   }
   .info .table-experience td:not(:first-child):before {
     font-size: .8em;
