@@ -82,7 +82,6 @@ permalink: /moreInfo/
 <!-- 수출입위험물관리시스템 구축 -->
 <div class="table-experience">
    <div class="table-header">수출입위험물관리시스템 구축</div>
-       
         <table>
             <tr>
               <th>기간</th>
