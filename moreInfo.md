@@ -13,7 +13,7 @@ permalink: /moreInfo/
            <tr>
              <th width="35%">프로젝트명</th>
              <th width="15%">기간</th>
-             <th width="auto">업무</th>
+             <th width="50%">업무</th>
            </tr>
            <!-- 산림조합 비대면계좌개설시스템 구축 -->
            <tr>
@@ -23,7 +23,7 @@ permalink: /moreInfo/
                <ul>
                   <li>개발환경</li>
                      <div class="list">
-                        - ()
+                        - 
                      </div>
                   <li>개발업무</li>
                      <div class="list">
