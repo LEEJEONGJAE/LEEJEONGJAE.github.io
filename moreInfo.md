@@ -6,9 +6,9 @@ permalink: /moreInfo/
 
 <h1>이름 : 이정재</h1>
 <h1>나이 : 30 (1989.09.08)</h1>
-
-<div class="table-experience">
-   <div class="table-header">경력사항</div>
+<div class="info">
+   <div class="table-experience">
+       <div class="table-header">경력사항</div>
        <table>
            <tr>
              <th width="35%">프로젝트명</th>
@@ -72,4 +72,5 @@ permalink: /moreInfo/
            </tr> 
            <!-- 스마트긴급구조통제단시스템구축 2016.07.04 ~ 2016.08.31 skip -->
        </table>
+   </div>
 </div>
