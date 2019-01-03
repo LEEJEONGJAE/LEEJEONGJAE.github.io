@@ -72,13 +72,13 @@ table tr:nth-child(2n+1) {
     position: absolute;
   }
   td:nth-child(2):before {
-    content: 'Name:';
+    content: '개발기간:';
   }
   td:nth-child(3):before {
-    content: 'Email:';
+    content: '개발환경:';
   }
   td:nth-child(4):before {
-    content: 'Phone:';
+    content: '담당업무:';
   }
   td:nth-child(5):before {
     content: 'Comments:';
