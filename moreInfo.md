@@ -18,8 +18,8 @@ permalink: /moreInfo/
            </tr>
            <!-- 산림조합 비대면계좌개설시스템 구축 -->
            <tr>
-             <td class="center">산림조합 비대면계좌개설시스템 구축</td>
-             <td class="center">2018.06.25 ~ 2018.10.19</td>
+             <td>산림조합 비대면계좌개설시스템 구축</td>
+             <td>2018.06.25<br> ~ 2018.10.19</td>
              <td>
                 -
              </td>
@@ -32,8 +32,8 @@ permalink: /moreInfo/
            </tr>
            <!-- 미래에셋생명 홈페이지 운영 -->
            <tr>
-             <td class="center">미래에셋생명 홈페이지 운영</td>
-             <td class="center">2017.07.01 ~ 2018.04.30</td>
+             <td>미래에셋생명 홈페이지 운영</td>
+             <td>2017.07.01<br> ~ 2018.04.30</td>
              <td>
                 -
              </td>
@@ -43,8 +43,8 @@ permalink: /moreInfo/
            </tr>
            <!-- 수출입위험물관리시스템 구축 -->
            <tr>
-             <td class="center">수출입위험물관리시스템 구축</td>
-             <td class="center">2016.09.01 ~ 2016.12.14</td>
+             <td>수출입위험물관리시스템 구축</td>
+             <td>2016.09.01<br> ~ 2016.12.14</td>
              <td>
                 -
              </td>
