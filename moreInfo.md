@@ -7,56 +7,49 @@ permalink: /moreInfo/
 <h1>이름 : 이정재</h1>
 <h1>나이 : 30 (1989.09.08)</h1>
 
-<div class="table-users">
-   <div class="header">경력상세</div>
+
+<h2>경력상세</h2>
 
 <!-- 산림조합 비대면계좌개설시스템 구축 -->
-        <table>
-            <tr>
-              <th>프로젝트명</th>
-            </tr>
-            <tr>
-              <td class="center">산림조합 비대면계좌개설시스템 구축</td>
-            </tr>   
-            <tr>
-              <th>기간</th>
-            </tr>
-            <tr>
-              <td class="center">2018.06.25 ~ 2018.10.19</td>
+<div class="table-experience">
+   <div class="table-header">산림조합 비대면계좌개설시스템 구축</div>
+       <table>
+           <tr>
+             <th>기간</th>
            </tr>
            <tr>
-               <th>
-                  개발환경
-               </th>
+             <td class="center">2018.06.25 ~ 2018.10.19</td>
+          </tr>
+          <tr>
+              <th>
+                 개발환경
+              </th>
+          </tr>
+          <tr>
+              <td>
+                 -
+              </td>
            </tr>
            <tr>
-               <td>
-                  -
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  업무
-               </th>
-            </tr>
-            <tr>
-               <td>
-                 - 바로뷰서비스 개발<br>
-                 - 타기관공인인증서등록 개발<br>
-                 - 큰글씨설정 개발<br>
-                 - 입금계좌지정서비스 개발
-               </td>
-            </tr>
-        </table>
+              <th>
+                 업무
+              </th>
+           </tr>
+           <tr>
+              <td>
+                - 바로뷰서비스 개발<br>
+                - 타기관공인인증서등록 개발<br>
+                - 큰글씨설정 개발<br>
+                - 입금계좌지정서비스 개발
+              </td>
+           </tr>
+       </table>
+</div>
 
-        <!-- 미래에셋생명 홈페이지 운영 -->
-        <table>
-            <tr>
-              <th>프로젝트명</th>
-            </tr>
-            <tr>
-              <td class="center">미래에셋생명 홈페이지 운영</td>
-            </tr>   
+<!-- 미래에셋생명 홈페이지 운영 -->
+<div class="table-experience">
+   <div class="table-header">미래에셋생명 홈페이지 운영</div>
+        <table>  
             <tr>
               <th>기간</th>
             </tr>
@@ -84,15 +77,13 @@ permalink: /moreInfo/
                </td>
             </tr>
         </table>
+</div>
 
-        <!-- 수출입위험물관리시스템 구축 -->
+<!-- 수출입위험물관리시스템 구축 -->
+<div class="table-experience">
+   <div class="table-header">수출입위험물관리시스템 구축</div>
+       
         <table>
-            <tr>
-              <th>프로젝트명</th>
-            </tr>
-            <tr>
-              <td class="center">수출입위험물관리시스템 구축</td>
-            </tr>   
             <tr>
               <th>기간</th>
             </tr>
@@ -121,7 +112,6 @@ permalink: /moreInfo/
                </td>
             </tr>
         </table>
+</div>        
 
 <!-- 스마트긴급구조통제단시스템구축 2016.07.04 ~ 2016.08.31 skip -->
-</div>
-</div>
