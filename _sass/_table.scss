@@ -18,6 +18,7 @@
 }
 
 table {
+  align: center;
   width: 100%;
 }
 table td, table th {
@@ -72,13 +73,14 @@ table tr:nth-child(2n+1) {
     position: absolute;
   }
   td:nth-child(2):before {
-    content: '개발기간:';
+    text_weight: 'bold';
+    content: '개발기간';
   }
   td:nth-child(3):before {
-    content: '개발환경:';
+    content: '개발환경';
   }
   td:nth-child(4):before {
-    content: '담당업무:';
+    content: '담당업무';
   }
   td:nth-child(5):before {
     content: 'Comments:';
@@ -100,14 +102,6 @@ table tr:nth-child(2n+1) {
     font-weight: 700;
     padding: 0;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-  }
-
-  img {
-    border: 3px solid;
-    border-color: #daeff1;
-    height: 100px;
-    margin: 0.5rem 0;
-    width: 100px;
   }
 
   td:first-child {
