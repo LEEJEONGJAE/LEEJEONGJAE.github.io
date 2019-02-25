@@ -35,8 +35,8 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.7
-						- Proworks
+						- jdk1.7<br>
+						- Proworks<br>
 						- 전문통신
 						</div>
 						<li>개발업무</li>
@@ -60,9 +60,9 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.7
-						- IB20
-						- Proworks
+						- jdk1.7<br>
+						- IB20<br>
+						- Proworks<br>
 						- 전문통신
 						</div>
 						<li>개발업무</li>
@@ -82,8 +82,8 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.8
-						- Spring Proworks
+						- jdk1.8<br>
+						- Spring Proworks<br>
 						- Oracle
 						</div>
 						<li>개발업무</li>
@@ -102,9 +102,9 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.8
-						- IB20
-						- Proworks
+						- jdk1.8<br>
+						- IB20<br>
+						- Proworks<br>
 						- 전문통신
 						</div>
 						<li>개발업무</li>
@@ -126,11 +126,11 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.6
-						- Servlet
-						- Oracle
-						- MSSQL
-						- Linux
+						- jdk1.6<br>
+						- Servlet<br>
+						- Oracle<br>
+						- MSSQL<br>
+						- Linux<br>
 						- Apache
 						</div>
 						<li>개발업무</li>
@@ -149,9 +149,9 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						- jdk1.8
-						- 전자정부 프레임워크 3.5
-						- Tibero
+						- jdk1.8<br>
+						- 전자정부 프레임워크 3.5<br>
+						- Tibero<br>
 						- tomcat
 						</div>
 						<li>개발업무</li>
