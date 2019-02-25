@@ -10,6 +10,12 @@ permalink: /moreInfo/
    <div class="table-experience">
        <div class="table-header">경력사항</div>
        <table>
+           <colgroup>
+              <col width="35%" />
+              <col width="15%" />
+              <col width="*" />
+          </colgroup>
+          <tbody>
            <tr>
              <th width="35%">프로젝트명</th>
              <th width="15%">기간</th>
@@ -71,6 +77,7 @@ permalink: /moreInfo/
              </td>
            </tr> 
            <!-- 스마트긴급구조통제단시스템구축 2016.07.04 ~ 2016.08.31 skip -->
+           </tbody>
        </table>
    </div>
 </div>
