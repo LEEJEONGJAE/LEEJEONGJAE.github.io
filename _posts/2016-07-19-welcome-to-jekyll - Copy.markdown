@@ -27,6 +27,7 @@ sample post
   <title>Document</title>
 </head>
 <body>
+	
 	[name=chk]
 	<input type="checkbox" name="chk" id="chk1">chk1
 	<input type="checkbox" name="chk" id="chk2">chk2
@@ -41,16 +42,14 @@ sample post
 	<input type="checkbox" name="chk2" id="chk23">chk23
 	<input type="checkbox" name="chk2" id="chk24">chk24
 	<input type="checkbox" name="chk2" id="chk25">chk25
-
-* attr을 사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리.
-* attr로도 checked값을 set하는데에는 문제가 없는데 왜 위 경우에서 안되는지 모르겠음.
-
+	
 </body>
 </html>
 
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+* attr을 사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리.
+* attr로도 checked값을 set하는데에는 문제가 없는데 왜 위 경우에서 안되는지 모르겠음.
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
