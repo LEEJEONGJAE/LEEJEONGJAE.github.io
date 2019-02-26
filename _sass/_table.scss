@@ -32,6 +32,11 @@
   text-align: center;
   vertical-align: middle;
 }
+
+.info .table-experience td:first-child {
+  work-break: keep-all;
+}
+
 .info .table-experience table td:last-child {
   font-size: 0.95em;
   line-height: 1.4;
