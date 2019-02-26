@@ -89,20 +89,10 @@
     position: absolute;
   }
   .info .table-experience td:nth-child(2):before {
-    content: '개발기간';
-    color: 333333;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-weight: bold;
-    text-size: 15px;    
+    content: '개발기간';    
   }
   .info .table-experience td:nth-child(3):before {
     content: '담당업무';
-    color: 333333;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-weight: bold;
-    text-size: 15px;
   }
   .info .table-experience tr {
     padding: 10px 0;
@@ -141,6 +131,11 @@
     padding-top: 0.3em;
     position: relative;
     width: 100%;
+    color: 333333;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: bold;
+    font-size: 15px;
   }
   .info .table-experience td:last-child {
     padding-bottom: 1rem !important;
