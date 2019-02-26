@@ -82,21 +82,20 @@
     text-align: left;
   }
   .info .table-experience td:not(:first-child):before {
-    color: black;
+    color: 333333;
     content: '';
     display: block;
     left: 0;
     position: absolute;
+    text-underline-position: under;
+    text-weight: 'bold';
+    text-size: 15px;
   }
   .info .table-experience td:nth-child(2):before {
-    text-weight: 'bold';
-    content: '개발기간';
     font-size: 2vw;
   }
   .info .table-experience td:nth-child(3):before {
-    text-weight: 'bold';
     content: '담당업무';
-    font-size: 3vw;
   }
   .info .table-experience tr {
     padding: 10px 0;
