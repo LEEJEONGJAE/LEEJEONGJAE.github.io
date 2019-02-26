@@ -3,10 +3,10 @@ layout: page
 title: 경력상세
 permalink: /moreInfo/
 ---
-
-<h1>이름 : 이정재</h1>
-<h1>나이 : 30 (1989.09.08)</h1>
-
+<div class="cont_header">
+	<p>이름 : 이정재</p>
+	<p>나이 : 30 (1989.09.08)</p>
+</div>
 <div class="info">
 
 	<div class="table-experience">
@@ -74,30 +74,10 @@ permalink: /moreInfo/
 				</td>
 			</tr>
 
-			<!-- 산림조합 비대면계좌개설시스템 구축 -->
-			<tr>
-				<td>산림조합 비대면계좌개설시스템 구축</td>
-				<td>2018.10.23 ~ 2018.11.30</td>
-				<td>
-					<ul>
-						<li>개발환경</li>
-						<div class="list">
-						- jdk1.8<br>
-						- Spring Proworks<br>
-						- Oracle
-						</div>
-						<li>개발업무</li>
-						<div class="list">
-						- 연구소 임상실험사이트 기능 추가개발<br>
-						</div>
-					</ul>
-				</td>
-			</tr>
-
 			<!-- 아모레퍼시픽 연구소 임상실험사이트 추가개발 -->
 			<tr>
 				<td>아모레퍼시픽 연구소 임상실험사이트 추가개발</td>
-				<td>2018.10.23 ~ 2018.10.19</td>
+				<td>2018.10.23 ~ 2018.11.30</td>
 				<td>
 					<ul>
 						<li>개발환경</li>
@@ -113,6 +93,26 @@ permalink: /moreInfo/
 						- 타기관OTP등록 개발<br>
 						- 큰글씨설정 개발<br>
 						- 입금계좌지정서비스 개발
+						</div>
+					</ul>
+				</td>
+			</tr>
+			
+			<!-- 산림조합 비대면계좌개설시스템 구축 -->
+			<tr>
+				<td>산림조합 비대면계좌개설시스템 구축</td>
+				<td>2018.06.25 ~ 2018.10.19</td>
+				<td>
+					<ul>
+						<li>개발환경</li>
+						<div class="list">
+						- jdk1.8<br>
+						- Spring Proworks<br>
+						- Oracle
+						</div>
+						<li>개발업무</li>
+						<div class="list">
+						- 연구소 임상실험사이트 기능 추가개발<br>
 						</div>
 					</ul>
 				</td>
