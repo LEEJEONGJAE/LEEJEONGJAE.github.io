@@ -83,16 +83,12 @@ permalink: /moreInfo/
 						<li>개발환경</li>
 						<div class="list">
 						- jdk1.8<br>
-						- IB20<br>
-						- Proworks<br>
-						- 전문통신
+						- Spring Proworks<br>
+						- Oracle
 						</div>
 						<li>개발업무</li>
 						<div class="list">
-						- 바로뷰서비스 개발<br>
-						- 타기관OTP등록 개발<br>
-						- 큰글씨설정 개발<br>
-						- 입금계좌지정서비스 개발
+						- 연구소 임상실험사이트 기능 추가개발<br>
 						</div>
 					</ul>
 				</td>
@@ -107,12 +103,16 @@ permalink: /moreInfo/
 						<li>개발환경</li>
 						<div class="list">
 						- jdk1.8<br>
-						- Spring Proworks<br>
-						- Oracle
+						- IB20<br>
+						- Proworks<br>
+						- 전문통신
 						</div>
 						<li>개발업무</li>
 						<div class="list">
-						- 연구소 임상실험사이트 기능 추가개발<br>
+						- 바로뷰서비스 개발<br>
+						- 타기관OTP등록 개발<br>
+						- 큰글씨설정 개발<br>
+						- 입금계좌지정서비스 개발
 						</div>
 					</ul>
 				</td>
