@@ -87,10 +87,6 @@
     display: block;
     left: 0;
     position: absolute;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-weight: 'bold';
-    text-size: 15px;
   }
   .info .table-experience td:nth-child(2):before {
     content: '개발기간';
@@ -130,6 +126,10 @@
     margin: 0;
     padding: 5px 1em;
     width: 100%;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-weight: 'bold';
+    text-size: 15px;
   }
   .info .table-experience td:not(:first-child):before {
     font-size: .8em;
