@@ -35,9 +35,9 @@ permalink: /moreInfo/
 					<ul>
 						<li>개발환경</li>
 						<div class="list">
-						> jdk1.7<br>
-						> Proworks<br>
-						> 전문통신
+						＞ jdk1.7<br>
+						＞ Proworks<br>
+						＞ 전문통신
 						</div>
 						<li>개발업무</li>
 						<div class="list">
