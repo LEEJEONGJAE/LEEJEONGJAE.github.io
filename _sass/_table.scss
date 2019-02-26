@@ -115,6 +115,7 @@
 
   .info .table-experience td:first-child {
     background-color: #c8e7ea;
+    border-top: 0px;
     border-bottom: 1px solid #91ced4;
     border-radius: 10px 10px 0 0;
     position: relative;
@@ -124,6 +125,7 @@
     -webkit-transform: translateY(0);
             transform: translateY(0);
     width: 100%;
+    margin-top: 0px;
   }
   .info .table-experience td:not(:first-child) {
     margin: 0;
