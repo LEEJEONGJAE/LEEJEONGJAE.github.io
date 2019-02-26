@@ -5,7 +5,7 @@ permalink: /moreInfo/
 ---
 <div class="cont_header">
 	<p>이름 : 이정재</p>
-	<p>나이 : 30 (1989.09.08)</p>
+	<p>나이 : 31 (1989)</p>
 </div>
 <div class="info">
 
