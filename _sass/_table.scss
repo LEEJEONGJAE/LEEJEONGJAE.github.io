@@ -87,12 +87,13 @@
     display: block;
     left: 0;
     position: absolute;
+    text-decoration: underline;
     text-underline-position: under;
     text-weight: 'bold';
     text-size: 15px;
   }
   .info .table-experience td:nth-child(2):before {
-    font-size: 2vw;
+    content: '개발기간';
   }
   .info .table-experience td:nth-child(3):before {
     content: '담당업무';
