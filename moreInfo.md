@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 웹개발경력상세
+title: 경력상세
 permalink: /moreInfo/
 ---
 <div class="cont_header">
@@ -11,7 +11,7 @@ permalink: /moreInfo/
 
 	<div class="table-experience">
 	
-	<div class="table-header">웹개발경력상세</div>
+	<div class="table-header">경력상세</div>
 	
 	<table>
 		<colgroup>
@@ -162,6 +162,7 @@ permalink: /moreInfo/
 					</ul>
 				</td>
 			</tr> 
+			
 			<!-- 스마트긴급구조통제단시스템구축 2016.07.04 ~ 2016.08.31 skip -->
 		</tbody>
 	</table>
