@@ -13,15 +13,17 @@ sample post
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-// name으로 제어
-$('[name=chk]').prop("checked", true);			// name으로 전체체크
-$('[name=chk]').prop("checked", false);			// name으로 전체해제
-$('[name=chk]').eq(0).prop("checked");			// 해당index(0)의 checked상태 확인
-$('[name=chk]').eq(0).prop("checked", "checked");	// 해당index(0) checked
 
-// id로 값 가져오기
-$('#chk1').prop("checked"); 		// id로 checked상태 확인
-$('#chk1').prop("checked", "checked");	// id로 checked
+function test(no){
+
+if(no == 1)	 $('[name=chk]').prop("checked", true);			// name으로 전체체크
+else if(no == 2) $('[name=chk]').prop("checked", false);		// name으로 전체해제
+else if(no == 3) $('[name=chk]').eq(0).prop("checked");			// 해당index(0)의 checked상태 확인
+else if(no == 4) $('[name=chk]').eq(0).prop("checked", "checked");	// 해당index(0) checked
+else if(no == 5) $('#chk1').prop("checked"); 				// id로 checked상태 확인
+else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
+
+}
 
 
 </script>
@@ -43,7 +45,13 @@ $('#chk1').prop("checked", "checked");	// id로 checked
 	<input type="checkbox" name="chk2" id="chk23">chk23
 	<input type="checkbox" name="chk2" id="chk24">chk24
 	<input type="checkbox" name="chk2" id="chk25">chk25
-	
+	<br>
+	<button onclick="test(1)">[1]</button><br>
+	<button onclick="test(2)">[2]</button><br>
+	<button onclick="test(3)">[3]</button><br>
+	<button onclick="test(4)">[4]</button><br>
+	<button onclick="test(5)">[5]</button><br>
+	<button onclick="test(6)">[6]</button>
 </body>
 </html>
 
