@@ -7,7 +7,7 @@ categories: jjlee update
 
 sample post
 
-{% highlight ruby %}
+~~~
 <!doctype html>
 <html lang="ko">
 <head>
@@ -46,7 +46,7 @@ sample post
 </body>
 </html>
 
-{% endhighlight %}
+~~~
 
 * attr을 사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리.
 * attr로도 checked값을 set하는데에는 문제가 없는데 왜 위 경우에서 안되는지 모르겠음.
