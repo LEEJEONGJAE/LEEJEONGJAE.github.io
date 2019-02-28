@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resume
 title: 경력상세
 permalink: /resume/
 ---
