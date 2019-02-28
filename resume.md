@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: resume
 title: 경력상세
-permalink: /moreInfo/
+permalink: /resume/
 ---
 <div class="cont_header">
 	<p>이름 : 이정재</p>
