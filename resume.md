@@ -4,6 +4,9 @@ title: 경력상세
 permalink: /resume/
 ---
 <div class="cont_header">
+	<br>
+	<br>
+	<br>
 	<p>이름 : 이정재</p>
 	<p>나이 : 31 (1989)</p>
 </div>
