@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using AES128"
+title:  "[JAVA] AES128 Util"
 date:   2019-02-28
 categories: jjlee update
 ---
