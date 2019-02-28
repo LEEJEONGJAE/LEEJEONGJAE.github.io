@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 경력상세
+title: 웹개발경력상세
 permalink: /moreInfo/
 ---
 <div class="cont_header">
@@ -11,7 +11,7 @@ permalink: /moreInfo/
 
 	<div class="table-experience">
 	
-	<div class="table-header">경력사항</div>
+	<div class="table-header">웹개발경력상세</div>
 	
 	<table>
 		<colgroup>
@@ -30,7 +30,7 @@ permalink: /moreInfo/
 			<!-- 우리종합금융 간편인증 및 타기관계좌확인 추가개발 프로젝트 -->
 			<tr>
 				<td>우리종합금융 간편인증 및 타기관계좌확인 추가개발 프로젝트</td>
-				<td>2019.01.07 ~ 2019.03.31</td>
+				<td>2019.01.07 ~ 2019.04.26</td>
 				<td>
 					<ul>
 						<li>개발환경</li>
