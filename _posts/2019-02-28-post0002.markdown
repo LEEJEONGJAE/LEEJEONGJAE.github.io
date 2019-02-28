@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[JAVA] AES128 Util"
+title:  "[0002][JAVA] AES128 Util"
 date:   2019-02-28
 categories: jjlee update
 ---
@@ -60,3 +60,6 @@ public class AES128Utils {
 
 }
 ~~~
+
+- **정리**
+  - AES256 
