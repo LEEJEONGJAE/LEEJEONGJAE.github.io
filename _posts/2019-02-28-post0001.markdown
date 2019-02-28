@@ -16,12 +16,12 @@ sample post
 
 function test(no){
 
-if(no == 1)	 $('[name=chk]').prop("checked", true);			// name으로 전체체크
+if(no == 1)	 $('[name=chk]').prop("checked", true);		// name으로 전체체크
 else if(no == 2) $('[name=chk]').prop("checked", false);		// name으로 전체해제
-else if(no == 3) $('[name=chk]').eq(0).prop("checked");			// 해당index(0)의 checked상태 확인
+else if(no == 3) $('[name=chk]').eq(0).prop("checked");		// 해당index(0)의 checked상태 확인
 else if(no == 4) $('[name=chk]').eq(0).prop("checked", "checked");	// 해당index(0) checked
 else if(no == 5) $('#chk1').prop("checked"); 				// id로 checked상태 확인
-else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
+else if(no == 6) $('#chk1').prop("checked", "checked");		// id로 checked
 
 }
 
