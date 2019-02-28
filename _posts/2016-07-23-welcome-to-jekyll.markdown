@@ -4,22 +4,59 @@ title:  "Welcome to Jekyll!"
 date:   2016-07-19 11:49:45 +0200
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+~~~
+package ibank.cmn.common.util;
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+public class AES128Utils {
+	
+	/** AES128 암호화키 (16자리) */
+	public static String key = "TEST123456789012";
+	
+	/**
+	 * AES128 암호화
+	 * @param toencrypt
+	 * @param secretKey
+	 * @return
+	 * @throws Exception
+	 */
+    public static byte[] encrypt(byte[] toencrypt) throws Exception {
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+        SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+        Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+
+        cipher.init(Cipher.ENCRYPT_MODE, skeySpec);
+
+        byte[] encrypted = cipher.doFinal(toencrypt);
+
+        return encrypted;
+
+    }
+    
+    /**
+     * AES128 복호화
+     * @param encrypted
+     * @return
+     * @throws Exception
+     */
+     
+    public static byte[] decrypt( byte[] encrypted) throws Exception {
+
+        SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
+
+        Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+
+        cipher.init(Cipher.DECRYPT_MODE, skeySpec);
+
+        byte[] decrypted = cipher.doFinal(encrypted);
+
+        return decrypted;
+
+    }    
+
+}
+~~~
