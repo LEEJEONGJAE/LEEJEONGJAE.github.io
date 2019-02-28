@@ -28,7 +28,7 @@ sample post
 </head>
 <body>
 	
-	[name=chk]
+	//[name=chk]
 	<input type="checkbox" name="chk" id="chk1">chk1
 	<input type="checkbox" name="chk" id="chk2">chk2
 	<input type="checkbox" name="chk" id="chk3">chk3
@@ -36,7 +36,7 @@ sample post
 	<input type="checkbox" name="chk" id="chk5">chk5
 	<br>
 	<br>
-	[name=chk2]
+	//[name=chk2]
 	<input type="checkbox" name="chk2" id="chk21">chk21
 	<input type="checkbox" name="chk2" id="chk22">chk22
 	<input type="checkbox" name="chk2" id="chk23">chk23
