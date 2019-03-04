@@ -2,7 +2,6 @@
 layout: post
 title:  "[0001][JQuery] Using CheckBox"
 date:   2019-02-28
-categories: jjlee update
 ---
 
 sample post
