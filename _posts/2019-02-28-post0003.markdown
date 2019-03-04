@@ -25,7 +25,8 @@ date:   2019-02-28
 
 * 프로젝트 패키지 생성 > 패키지 안에 'main.js'파일 생성
 
-<div "highlight">
+<pre>
+<code class="markdown">
 ~~~
 var http = require('http');
 var fs = require('fs');
@@ -54,7 +55,8 @@ var app = http.createServer(function(request,response){
 });
 app.listen(3000); // port number (ex. http://localhost:3000)
 ~~~
-</div>
+</code>
+</pre>
 3. npm 사용하기
 
 * npm : node pakage manager
