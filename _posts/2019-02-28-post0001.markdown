@@ -3,9 +3,9 @@ layout: post
 title:  "[0001][JQuery] Using CheckBox"
 date:   2019-02-28
 ---
-
+`backgound black
 sample post
-
+`
 ```html
 <!doctype html>
 <html lang="ko">
@@ -13,7 +13,7 @@ sample post
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
-```javascript
+	
 function test(no){
 
 if(no == 1)	 $('[name=chk]').prop("checked", true);			// name으로 전체체크
@@ -24,7 +24,7 @@ else if(no == 5) $('#chk1').prop("checked"); 				// id로 checked상태 확인
 else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
 
 }
-```
+
 
 </script>
   <title>Document</title>
