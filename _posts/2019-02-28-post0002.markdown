@@ -2,7 +2,6 @@
 layout: post
 title:  "[0002][JAVA] AES128 Util"
 date:   2019-02-28
-categories: jjlee update
 ---
 
 
