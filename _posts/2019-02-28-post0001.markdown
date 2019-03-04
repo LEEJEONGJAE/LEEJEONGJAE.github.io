@@ -3,9 +3,9 @@ layout: post
 title:  "[0001][JQuery] Using CheckBox"
 date:   2019-02-28
 ---
-`backgound black
+```backgound black
 sample post
-`
+```
 ```html
 <!doctype html>
 <html lang="ko">
