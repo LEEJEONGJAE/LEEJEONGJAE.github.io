@@ -4,8 +4,8 @@ title:  "[0002][JAVA] AES128 Util"
 date:   2019-02-28
 ---
 
-<div class="highlighter-rouge">
-~~~
+
+<div class="highlight ">
 package ljj.com.otnweo;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -58,7 +58,6 @@ public class AES128Utils {
     }    
 
 }
-~~~
 </div>
 
 - **정리**
