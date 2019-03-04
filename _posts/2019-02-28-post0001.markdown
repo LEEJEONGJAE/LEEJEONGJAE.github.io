@@ -6,7 +6,7 @@ date:   2019-02-28
 
 sample post
 
-~~~
+```
 <!doctype html>
 <html lang="ko">
 <head>
@@ -53,8 +53,8 @@ else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
 	<button onclick="test(6)">[6]</button>
 </body>
 </html>
+```
 
-~~~
 
 - **정리**
   - attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리.
