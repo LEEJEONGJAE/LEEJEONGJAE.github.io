@@ -16,12 +16,12 @@ sample post
 	
 function test(no){
 
-if(no == 1)	 $('[name=chk]').prop("checked", true);			// name으로 전체체크
-else if(no == 2) $('[name=chk]').prop("checked", false);		// name으로 전체해제
-else if(no == 3) $('[name=chk]').eq(0).prop("checked");			// 해당index(0)의 checked상태 확인
-else if(no == 4) $('[name=chk]').eq(0).prop("checked", "checked");	// 해당index(0) checked
-else if(no == 5) $('#chk1').prop("checked"); 				// id로 checked상태 확인
-else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
+if(no == 1)	 $('[name=chk]').prop("checked", true);		// name으로 전체체크
+else if(no == 2) $('[name=chk]').prop("checked", false);	// name으로 전체해제
+else if(no == 3) $('[name=chk]').eq(0).prop("checked");		// 해당index(0)의 checked상태 확인
+else if(no == 4) $('[name=chk]').eq(0).prop("checked", true);	// 해당index(0) checked
+else if(no == 5) $('#chk1').prop("checked");			// id로 checked상태 확인
+else if(no == 6) $('#chk1').prop("checked", true);		// id로 checked
 
 }
 
@@ -57,5 +57,7 @@ else if(no == 6) $('#chk1').prop("checked", "checked");			// id로 checked
 ```
 
 **정리**
-- attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리.
-- attr로도 checked값을 set하는데에는 문제가 없는데 왜 위 경우에서 안되는지 모르겠음.
+- attr/prop의 차이점 => attr : HTML의 속성(attribute) / prop : JavaScript의 프로퍼티(property)
+- attr로 checked 값을 가져올때는 문자열형태("checked")로 넘어오고, prop로 가져올때는 boolean(true/false)형태로 넘어온다고 한다.
+- jquery를 사용하여 attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리하려 해결.
+- jquery가 javascript기반이므로 prop를 사용하는게 더 안정적인 것 같아서 전부 prop로 처리.
