@@ -56,6 +56,7 @@ else if(no == 6) $('#chk1').prop("checked", true);		// id로 checked
 </html>
 ```
 
+
 **정리**
 - attr/prop의 차이점 => attr : HTML의 속성(attribute) / prop : JavaScript의 프로퍼티(property)
 - attr로 checked 값을 가져올때는 문자열형태("checked")로 넘어오고, prop로 가져올때는 boolean(true/false)형태로 넘어온다고 한다.
