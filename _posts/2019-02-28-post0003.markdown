@@ -4,10 +4,10 @@ title:  "[0003][nodejs] nodejs Start(for windows)"
 date:   2019-02-28
 ---
 
-* what is nodejs?
-  => javascript + WebServer
-
-1. nodejs install 
+**what is nodejs?**
+  => server-side javascript.
+  
+No. nodejs install
 
 * download url
  - nodejs      : nodejs.org (lts가 더 안정화된 버전)
