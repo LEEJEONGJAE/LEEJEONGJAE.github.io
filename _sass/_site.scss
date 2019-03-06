@@ -128,7 +128,7 @@
     .card-content{
             padding: 80px 20px;
             
-            .post-title{
+            .post-title{//post title
               font-size: 1.5em;
               font-weight: bold;
             }
@@ -154,10 +154,10 @@
 @media (max-width: 500px) {
   .post{
       .card-content{
-          .post-meta{
+          .post-meta{//post time
             font-size: 0.8em;
           }
-          .post-title{
+          .post-title{//post title
             font-size: 1.0em;
             font-weight: bold;
           }
