@@ -134,10 +134,12 @@
             }
       
             .summary{
-                list-style: aliceblue;
+                ul{  
+                  list-style: aliceblue;
 
-                li{
-                  margin-left: -30px;
+                  li{
+                    margin-left: -30px;
+                  }
                 }
             }            
      }
