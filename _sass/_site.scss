@@ -111,6 +111,16 @@
                 }
             }
         }
+      
+        .ul-list.disc{
+            ul{  
+               list-style: disc;
+
+               li{
+                 margin-left: -10px;
+               }
+            }
+        }      
         
         .rss-subscribe{
             text-align: center;
