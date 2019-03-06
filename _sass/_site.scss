@@ -130,6 +130,7 @@
             
             .post-title{
               font-size: 1.5em;
+              font-weight: bold;
             }
     }
 }
@@ -148,4 +149,15 @@
         margin: $spacing-unit 2%;
         width: 96%;
     }
+}
+
+@media (max-width: 500px) {
+  .post{
+      .card-content{
+              .post-title{
+                font-size: 1.0em;
+                font-weight: bold;
+              }
+      }
+  }
 }
