@@ -21,7 +21,7 @@ No. nodejs install
 > node -v
 ```
 
-2. 웹서버 구축하기
+No. 웹서버 구축하기
 
 * 프로젝트 패키지 생성 > 패키지 안에 'main.js'파일 생성
 
@@ -54,7 +54,7 @@ var app = http.createServer(function(request,response){
 app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
-3. npm 사용하기
+No. npm 사용하기
 
 * npm : node pakage manager
 
