@@ -7,15 +7,20 @@ date:   2019-02-28
 **0. what is nodejs? => server-side javascript.**
   
 **1. nodejs install**
-
-* download url
- - nodejs      : nodejs.org (lts가 더 안정화된 버전)
- - atom editor : atom.io (if you have not editor downloading this)
-
-* nodejs install : all next and complete.
-
-* 설치확인
- - 명령어창 실행 > 'node -v'입력 : 설치가 정상적으로 되었다면 nodejs버전정보가 표시된다.
+<div class="ul-list">
+<ul class="circle">
+  <li>download url</li>
+  <ul class="disc">
+    <li>nodejs      : nodejs.org (lts가 더 안정화된 버전)</li>
+    <li>atom editor : atom.io (if you have not editor downloading this)</li>
+  </ul>
+  <li>nodejs install : all next and complete.</li>
+  <li>설치확인</li>
+  <ul class="disc">
+    <li>명령어창 실행 > 'node -v'입력 : 설치가 정상적으로 되었다면 nodejs버전정보가 표시된다.</li>
+  </ul>
+ </ul>
+</div>
 ```node
 > node -v
 ```
