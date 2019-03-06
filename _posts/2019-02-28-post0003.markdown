@@ -7,7 +7,6 @@ date:   2019-02-28
 **0. what is nodejs? => server-side javascript.**
   
 **1. nodejs install**
-<div class="ul-list">
 <ul class="circle">
   <li>download url</li>
   <li>
@@ -23,8 +22,7 @@ date:   2019-02-28
     <li>명령어창 실행 > 'node -v'입력 : 설치가 정상적으로 되었다면 nodejs버전정보가 표시된다.</li>
   </ul>
   </li>
- </ul>
-</div>
+</ul>
 ```node
 > node -v
 ```
