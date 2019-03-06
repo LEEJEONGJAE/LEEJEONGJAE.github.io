@@ -56,57 +56,10 @@ else if(no == 6) $('#chk1').prop("checked", true);		// id로 checked
 </html>
 ```
 
-<!doctype html>
-<html lang="ko">
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script>
-	
-function test(no){
-
-if(no == 1)	 $('[name=chk]').prop("checked", true);		// name으로 전체체크
-else if(no == 2) $('[name=chk]').prop("checked", false);	// name으로 전체해제
-else if(no == 3) $('[name=chk]').eq(0).prop("checked");		// 해당index(0)의 checked상태 확인
-else if(no == 4) $('[name=chk]').eq(0).prop("checked", true);	// 해당index(0) checked
-else if(no == 5) $('#chk1').prop("checked");			// id로 checked상태 확인
-else if(no == 6) $('#chk1').prop("checked", true);		// id로 checked
-
-}
-
-
-</script>
-  <title>Document</title>
-</head>
-<body>
-	
-	<!-- [name=chk] -->
-	<input type="checkbox" name="chk" id="chk1">chk1
-	<input type="checkbox" name="chk" id="chk2">chk2
-	<input type="checkbox" name="chk" id="chk3">chk3
-	<input type="checkbox" name="chk" id="chk4">chk4
-	<input type="checkbox" name="chk" id="chk5">chk5
-	<br>
-	<br>
-	<!-- [name=chk2] -->
-	<input type="checkbox" name="chk2" id="chk21">chk21
-	<input type="checkbox" name="chk2" id="chk22">chk22
-	<input type="checkbox" name="chk2" id="chk23">chk23
-	<input type="checkbox" name="chk2" id="chk24">chk24
-	<input type="checkbox" name="chk2" id="chk25">chk25
-	<br>
-	<button onclick="test(1)">[1]</button><br>
-	<button onclick="test(2)">[2]</button><br>
-	<button onclick="test(3)">[3]</button><br>
-	<button onclick="test(4)">[4]</button><br>
-	<button onclick="test(5)">[5]</button><br>
-	<button onclick="test(6)">[6]</button>
-</body>
-</html>
-
-
 **정리**
-- attr/prop의 차이점 => attr : HTML의 속성(attribute) / prop : JavaScript의 프로퍼티(property)
-- attr로 checked 값을 가져올때는 문자열형태("checked")로 넘어오고, prop로 가져올때는 boolean(true/false)형태로 넘어온다고 한다.
-- jquery를 사용하여 attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리하려 해결.
-- jquery가 javascript기반이므로 prop를 사용하는게 더 안정적인 것 같아서 전부 prop로 처리.
+<ul>
+	<li>attr/prop의 차이점 => attr : HTML의 속성(attribute) / prop : JavaScript의 프로퍼티(property)</li>
+	<li>attr로 checked 값을 가져올때는 문자열형태("checked")로 넘어오고, prop로 가져올때는 boolean(true/false)형태로 넘어온다고 한다.</li>
+	<li>jquery를 사용하여 attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리하려 해결.</li>
+	<li>jquery가 javascript기반이므로 prop를 사용하는게 더 안정적인 것 같아서 전부 prop로 처리.</li>
+</ul>
