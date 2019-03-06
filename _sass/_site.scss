@@ -154,10 +154,13 @@
 @media (max-width: 500px) {
   .post{
       .card-content{
-              .post-title{
-                font-size: 1.0em;
-                font-weight: bold;
-              }
+          .post-meta{
+            font-size: 1.0em;
+          }
+          .post-title{
+            font-size: 1.0em;
+            font-weight: bold;
+          }
       }
   }
 }
