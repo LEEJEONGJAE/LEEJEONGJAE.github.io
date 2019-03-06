@@ -7,7 +7,7 @@ date:   2019-02-28
 **0. what is nodejs? => server-side javascript.**
   
 **1. nodejs install**
-<ul class="circle lm10">
+<ul class="circle lm20">
   <li>download url
   <ul class="disc lm20">
     <li>nodejs      : nodejs.org (lts가 더 안정화된 버전)</li>
