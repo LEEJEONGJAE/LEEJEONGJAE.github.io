@@ -4,10 +4,9 @@ title:  "[0003][nodejs] nodejs Start(for windows)"
 date:   2019-02-28
 ---
 
-**what is nodejs?**
-  => server-side javascript.
+**0. what is nodejs? => server-side javascript.**
   
-No. nodejs install
+**1. nodejs install**
 
 * download url
  - nodejs      : nodejs.org (lts가 더 안정화된 버전)
@@ -21,7 +20,7 @@ No. nodejs install
 > node -v
 ```
 
-No. 웹서버 구축하기
+**2. 웹서버 구축하기**
 
 * 프로젝트 패키지 생성 > 패키지 안에 'main.js'파일 생성
 
@@ -54,7 +53,7 @@ var app = http.createServer(function(request,response){
 app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
-No. npm 사용하기
+3. npm 사용하기
 
 * npm : node pakage manager
 
