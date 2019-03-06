@@ -121,16 +121,6 @@
                 color:$brand-color;
             }
         }
-        
-        .summary{
-          ul{
-            list-style: aliceblue;
-
-            li{
-              margin-left: -30px;
-            }
-          }
-        }
     }
 }
 
@@ -142,6 +132,16 @@
               font-size: 1.5em;
               font-weight: bold;
             }
+      
+            .summary{
+              ul{
+                list-style: aliceblue;
+
+                li{
+                  margin-left: -30px;
+                }
+              }
+            }            
     }
 }
 
