@@ -62,19 +62,19 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
 **3. npm 사용하기**
- <span class="list_circle lm20">npm : node pakage manager</span>
- <span class="list_disc lm30">url : http://pm2.keymetrics.io/</span>
- <span class="list_disc lm30">pm2 설치</span>
- <span class="list_circle lm40">윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'</span>
+ <a class="list_circle lm20">npm : node pakage manager</a>
+ <a class="list_disc lm30">url : http://pm2.keymetrics.io/</a>
+ <a class="list_disc lm30">pm2 설치</a>
+ <a class="list_circle lm40">윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'</a>
  ~~~node
  > npm install pm2 -g
  ~~~
- <span class="list_circle lm40">리눅스 : 'sudo npm install pm2 -g'<br>
+ <a class="list_circle lm40">리눅스 : 'sudo npm install pm2 -g'<br>
    (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )<br>
 ```node
 > sudo npm install pm2 -g
 ```  
- </span>
+ </a>
 
 
 
