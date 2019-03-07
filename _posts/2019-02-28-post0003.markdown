@@ -6,7 +6,7 @@ date:   2019-02-28
 
 **0. what is nodejs? => server-side javascript.**
   
-**1. nodejs install**
+**1. nodejs 설치**
 <ul class="circle lm20">
   <li>download url
   <ul class="disc lm30">
@@ -27,17 +27,23 @@ date:   2019-02-28
     
 **2. 웹서버 구축하기**
 
-* 프로젝트 패키지 생성 > 패키지 안에 'main.js'파일 생성
+<ul class="circle lm20">
+  <li>프로젝트 패키지 생성</li>
+  <li>프로젝트패키지에 main.js 파일 생성</li>
+  <li>main.js</li>
+</ul>
 
 ```node
-var http = require('http');
-var fs = require('fs');
+var http = require('http'); //  Http
+var fs = require('fs');     //  FileSystem
+
+//Server configration
 var app = http.createServer(function(request,response){
     var url = request.url;
 
     //default url setting
     if(request.url == '/'){
-      url = '/index.html';
+      url = '/index.html';  //default url
     }
 
     //favicon : favorites + icon : inference icon(like thumbnail)
@@ -45,43 +51,49 @@ var app = http.createServer(function(request,response){
       return response.writeHead(404); //404: not found
     }
     
-    response.writeHead(200); //WEB Server boot
+    response.writeHead(200); // OK
 
-    console.log(__dirname + url); //debug log
-
-    response.end(fs.readFileSync(__dirname + url));
+    response.end(fs.readFileSync(__dirname + url)); //page read(load)
     //fs.readFileSync(__dirname + url) : '__dirname + url'path file read
     //response.end('[content]') display '[content]' in webbrower
-    
 
 });
 app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
-3. npm 사용하기
+**3. npm 사용하기**
 
-* npm : node pakage manager
+<ul class="circle lm20">
+  <li>npm : node pakage manager</li>
+  <li>윈도우로 설치하는 경우 npm은 nodejs설치시 같이 설치 됨.</li>
+  <li>nodejs에서 사용할 수 있는 다양한 기능을 제공</li>
+  <li>pm2(process manager) : 서버관리기능을 가지고 있는 패키지
+  <ul class="disc lm30">
+    <li>url : http://pm2.keymetrics.io/</li>
+    <li>pm2 설치
+    <ul class="disc lm40">
+      <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
+        ```node
+        > npm install pm2 -g
+        ```
+      </li>
+    </ul>
+    </li>
+    <ul class="disc lm40">
+      <li>리눅스 : 'sudo npm install pm2 -g'<br>
+          (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )
+           ```node
+           > sudo npm install pm2 -g
+           ```
+      </li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+  
+</ul>
 
-* 윈도우로 설치하는 경우 npm은 nodejs설치시 같이 설치 됨.
-
-* nodejs에서 사용할 수 있는 다양한 기능을 제공
-
-* pm2(process manager) : 서버관리기능을 가지고 있음.
-
- - pm2 : http://pm2.keymetrics.io/
-
- - pm2 설치
-   - 윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
-   ```node
-   > npm install pm2 -g
-   ```
-   - 리눅스 : 'sudo npm install pm2 -g'
-   (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )
-   ```node
-   > sudo npm install pm2 -g
-   ```
- 
- - pm2 주요명령어
+- pm2 주요명령어
    - 웹서버 실행 : 'pm2 start main.js --watch'
      ('--watch'옵션은 hot deploy 기능을 의미함, 'pm2 start main.js'만으로도 서버실행은 가능.)
    ```node
