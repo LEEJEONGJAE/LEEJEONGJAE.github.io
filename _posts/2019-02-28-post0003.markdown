@@ -5,8 +5,8 @@ date:   2019-02-28
 ---
 
 * **what is nodejs? => server-side javascript.**
-* <span class="lm20">what is nodejs? => server-side javascript.</span>
-  
+- <span class="lm20">what is nodejs? => server-side javascript.</span>
+* <span class="lm20">1. nodejs 설치</span>
 * **1. nodejs 설치**
 <ul class="circle lm20">
   <li>download url
