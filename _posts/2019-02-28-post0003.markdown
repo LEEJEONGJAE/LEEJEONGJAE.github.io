@@ -62,7 +62,7 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
 **3. npm 사용하기**
-
+<!--
 <ul class="circle lm20">
   <li>npm : node pakage manager</li>
   <li>윈도우로 설치하는 경우 npm은 nodejs설치시 같이 설치 됨.</li>
@@ -76,7 +76,7 @@ app.listen(3000); // port number (ex. http://localhost:3000)
     </ul>
     </li>
    </ul>
- </ul>
+ </ul>-->
  <span class="list_circle lm20">npm : node pakage manager</span>
  <span class="list_disc lm30">url : http://pm2.keymetrics.io/</span>
  <span class="list_disc lm30">pm2 설치</span>
@@ -90,7 +90,7 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 > sudo npm install pm2 -g
 ```  
  </span>
-      
+<!--
     </li>
     <ul class="disc lm40">
       <li>리눅스 : 'sudo npm install pm2 -g'<br>
@@ -103,9 +103,8 @@ app.listen(3000); // port number (ex. http://localhost:3000)
     </li>
   </ul>
   </li>
-  
 </ul>
-
+-->
 - pm2 주요명령어
    - 웹서버 실행 : 'pm2 start main.js --watch'
      ('--watch'옵션은 hot deploy 기능을 의미함, 'pm2 start main.js'만으로도 서버실행은 가능.)
