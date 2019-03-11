@@ -63,12 +63,39 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 ```
 
 **3. npm 사용하기**
- <a class="list_circle lm20">npm : node pakage manager</a>
- <a class="list_disc lm30">url : http://pm2.keymetrics.io/</a>
- <a class="list_disc lm30">pm2 설치</a>
- <a class="list_circle lm40">윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'</a>
+
+<ul class="list_circle lm20">
+  <li>npm : node pakage manager
+  <ul class="list_disc lm30">
+    <li>url : http://pm2.keymetrics.io</li>
+    <li>pm2 설치
+      <ul class="list_disc lm40">
+        <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
+          <pre>
+            <code class="language-node">
+                > npm install pm2 -g
+            </code>
+          </pre>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  </li>
+  <li>nodejs install : all next and complete.</li>
+  <li>설치확인
+  <ul class="disc lm30">
+    <li>명령어창 실행 > 'node -v'입력 : 설치가 정상적으로 되었다면 nodejs버전정보가 표시된다.</li>
+  </ul>
+  </li>
+</ul>
+
+
+ <a class="list_circle lm20"></a>
+ <a class="list_disc lm30">/</a>
+ <a class="list_disc lm30"></a>
+ <a class="list_circle lm40"></a>
  ~~~node
- > npm install pm2 -g
+
  ~~~
  <a class="list_circle lm40">리눅스 : 'sudo npm install pm2 -g'<br>
    (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )<br>
