@@ -71,18 +71,12 @@ app.listen(3000); // port number (ex. http://localhost:3000)
     <li>pm2 설치
       <ul class="circle lm40">
         <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
-          <pre>
-            <code class="language-node">
-                > npm install pm2 -g
-            </code>
-          </pre>
+          <pre><code class="language-node">> npm install pm2 -g</code></pre>
         </li>
         <li>리눅스 : 'sudo npm install pm2 -g'<br>
           (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )
           <pre>
-            <code class="language-node">
-                > sudo npm install pm2 -g
-            </code>
+            <code class="language-node">> sudo npm install pm2 -g</code>
           </pre>
         </li>        
       </ul>
