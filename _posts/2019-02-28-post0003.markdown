@@ -103,7 +103,6 @@ app.listen(3000); // port number (ex. http://localhost:3000)
     </li>  
   </ul>
   </li>
-  <li>nodejs install : all next and complete.</li>
 </ul>
 
 
