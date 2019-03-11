@@ -4,10 +4,10 @@ title:  "[0003][nodejs] nodejs Start(for windows)"
 date:   2019-02-28
 ---
 
-* **what is nodejs? => server-side javascript.**
+**what is nodejs? => server-side javascript.**
 * <span class="lm20">what is nodejs? => server-side javascript.</span>
 * <span class="lm20">nodejs 설치</span>
-* **1. nodejs 설치**
+**1. nodejs 설치**
 <ul class="circle lm20">
   <li>download url
   <ul class="disc lm30">
@@ -26,7 +26,7 @@ date:   2019-02-28
 > node -v
 ```     
     
-* **2. 웹서버 구축하기**
+**2. 웹서버 구축하기**
 
 <ul class="circle lm20">
   <li>프로젝트 패키지 생성</li>
