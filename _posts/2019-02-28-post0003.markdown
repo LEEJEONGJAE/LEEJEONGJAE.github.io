@@ -69,6 +69,7 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 <ul class="circle lm20">
   <li>npm : node pakage manager
   <ul class="disc lm30">
+    <li>pm2(서버관리 패키지) 사용하기</li>
     <li>url : http://pm2.keymetrics.io</li>
     <li>pm2 설치
       <ul class="circle lm30">
