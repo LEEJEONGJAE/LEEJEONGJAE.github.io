@@ -64,12 +64,12 @@ app.listen(3000); // port number (ex. http://localhost:3000)
 
 **3. npm 사용하기**
 
-<ul class="list_circle lm20">
+<ul class="circle lm20">
   <li>npm : node pakage manager
-  <ul class="list_disc lm30">
+  <ul class="disc lm30">
     <li>url : http://pm2.keymetrics.io</li>
     <li>pm2 설치
-      <ul class="list_disc lm40">
+      <ul class="circle lm40">
         <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
           <pre>
             <code class="language-node">
