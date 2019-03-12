@@ -1,6 +1,61 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "[0004][nodejs] npm 사용하기
 date:   2019-03-12
 ---
 
+**0.what is npm? => node pakage manager**
+**=> nodejs에서 다양한 모듈들을 사용할 수 있게 해주는 기능**
+**1. npm 사용하기**
+
+<ul class="circle lm20">
+  <li>npm : node pakage manager
+  <ul class="disc lm30">
+    <li>pm2(서버관리 패키지) 사용하기</li>
+    <li>url : http://pm2.keymetrics.io</li>
+    <li>pm2 설치
+      <ul class="circle lm30">
+        <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
+          <pre><code class="language-node">> npm install pm2 -g</code></pre>
+        </li>
+        <li>리눅스 : 'sudo npm install pm2 -g'<br>
+          (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )
+          <pre><code class="language-node">> sudo npm install pm2 -g</code></pre>
+        </li>        
+      </ul>
+    </li>
+    <li>pm2 주요명령어
+      <ul class="circle lm30">
+        <li>웹서버 실행 : 'pm2 start main.js --watch'<br>
+          ('--watch'옵션은 hot deploy 기능을 의미함, 'pm2 start main.js'만으로도 서버실행은 가능.)
+          <pre><code class="language-node">> pm2 start main.js --watch</code></pre>
+        </li>
+        <li>웹서버 종료 : 'pm2 stop main'<br>
+          ('main'은 서버실행시 표시되는 정보 중 name을 입력.)
+          <pre><code class="language-node">> pm2 stop main</code></pre>
+        </li>
+        <li>웹서버 모니터 : 'pm2 monit'<br>
+          (어떤 프로세스가 실행중인지 확인할 수 있다.)
+          <pre><code class="language-node">> pm2 monit</code></pre>
+        </li> 
+        <li>웹서버 로그 확인 : 'pm2 log'<br>
+          (어떤 프로세스가 실행중인지 확인할 수 있다.)
+          <pre><code class="language-node">> pm2 log</code></pre>
+        </li>        
+      </ul>
+    </li>  
+  </ul>
+  </li>
+</ul>
+
+
+**정리**
+<div class="summary">
+   <ul>
+     <li>일단 복/붙. 내용정리 및 추가가 필요함.</li>
+     <li>nodejs 설치는 windows 상으로 매우 간단하다.</li>
+     <li>웹서버구축 또한 간단한 js소스로 구현할 수 있다.</li>
+     <li>npm은 굉장히 다양해서 많이 사용해봐야 알 것 같다.</li>
+     <li>nodejs를 처음 맛본 느낌은 javascript기반이라서 그런지 자바에 비해 훨씬 가볍고 겨우 저정도 설정으로 웹서버가 실행되나 싶을 정도이다.</li>
+   </ul>
+</div>
