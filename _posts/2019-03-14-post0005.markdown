@@ -35,7 +35,7 @@ date:   2019-03-14
   <li>내용정리중</li>
   <li></li>
   <li>출처
-    <ul class="circle lm30">
+    <ul class="disc lm30">
       <li>https://ryan-han.com/post/2018/etc/stringconcat/</li>
     </ul>
   </li>
