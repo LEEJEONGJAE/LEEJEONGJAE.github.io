@@ -132,7 +132,7 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-        </code></pre>
+        </code></pre></div>
       </li>
       <li>/views/index.jade : 템플릿파일인 제이드(Jade) 파일이다.
         <pre><code class="language-jade">
@@ -141,7 +141,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-        </code></pre></div>
+        </code></pre>
       </li>
       <li>/public : 정적파일이 저장되어 있으며 javascripts, images, stylesheets로 구성됨.</li>
       <li>/node_modules : 위에서 'npm install'을 실행한 경우 생성되는 폴더</li>
