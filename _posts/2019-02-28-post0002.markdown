@@ -60,8 +60,6 @@ public class AES128Utils {
 </pre>
 
 **정리**
-<div class="summary">
-   <ul>
-      <li>AES256 업데이트 예정</li>
-   </ul>
-</div>
+<ul class="circle lm20">
+  <li>AES256 업데이트 예정</li>
+</ul>
