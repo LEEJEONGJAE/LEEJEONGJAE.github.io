@@ -4,9 +4,7 @@ title:  "[0001][JQuery] Using CheckBox"
 date:   2019-02-28
 ---
 
-sample post
-
-```html
+<pre class="prettyprint">
 <!doctype html>
 <html lang="ko">
 <head>
@@ -54,7 +52,7 @@ else if(no == 6) $('#chk1').prop("checked", true);		// id로 checked
 	<button onclick="test(6)">[6]</button>
 </body>
 </html>
-```
+</pre>
 
 **정리**
 <div class="summary">
