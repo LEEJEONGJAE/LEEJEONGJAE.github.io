@@ -181,4 +181,9 @@ block content
   <li>express는 자바에서 Spring을 사용할때만큼 편리하게 느껴진다.</li>
   <li>express를 사용하여 자동으로 생성되는 파일들을 보니 어느정도 구조가 보여서 약간은 더 익숙해진 느낌이다.</li>
   <li>제이드(jade)파일은 처음접해서 문법이 낯설긴 한데, 소스가 간단해보이는게 편리해보인다.</li>
+  <li>출처
+    <ul class="circle lm30">
+      <li>https://opentutorials.org</li>
+    </ul>
+  </li>
 </ul>
