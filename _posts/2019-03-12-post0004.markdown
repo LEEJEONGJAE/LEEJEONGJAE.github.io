@@ -68,7 +68,7 @@ date:   2019-03-12
 **3. Express 사용하기**
 <ul class="circle lm20">
   <li>Express : 가장 대표적인 웹프레임워크(WebFrameworks) 중 하나</li>
-  <li>url : https://expressjs.com/ko/</li>
+  <li>url : https://expressjs.com/</li>
   <li>자주사용하는 기본적인 기능들을 포함한 프레임워크이다.</li>
   <li>Express 설치 : 'npm install express -g' 입력<br>
     => express를 전역(-g)에서 사용할 수 있도록 설치
@@ -184,6 +184,7 @@ block content
   <li>출처
     <ul class="disc lm30">
       <li>https://opentutorials.org</li>
+      <li>https://expressjs.com/ko</li>
     </ul>
   </li>
 </ul>
