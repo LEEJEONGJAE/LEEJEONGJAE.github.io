@@ -114,7 +114,7 @@ date:   2019-03-12
         </ul>
       </li>
       <li>/routes : 라우팅을 위한 폴더이다.. 라우팅리소스 별로 모듈을 만들어 라우팅로직을 각 파일에 구현한다.
-        <div class="language-javascript"><pre class="highlight"><code class="highlight">> sudo npm install pm2 -g</code></pre></div>
+        <div class="language-javascript"><pre class="highlight"><code class="highlight">
 //index.js
 var express = require('express');
 var router = express.Router();
