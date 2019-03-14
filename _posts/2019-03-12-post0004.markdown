@@ -4,7 +4,7 @@ title:  "[0004][nodejs] npm 사용하기"
 date:   2019-03-12
 ---
 
-**0.what is npm?**
+**0. what is npm?**
 <br>
 **=> node pakage manager**
 <br>
