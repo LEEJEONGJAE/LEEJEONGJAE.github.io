@@ -103,7 +103,8 @@ date:   2019-03-12
 └── views
     ├── error.pug
     ├── index.pug
-    └── layout.pug</pre>
+    └── layout.pug
+        </pre>
       </li>
       <li>package.json : app에서 사용될 모듈들의 정보를 설정하는 파일<br>
         (maven의 pom.xml의 역할을 하는 설정파일로 보임)
@@ -123,7 +124,8 @@ date:   2019-03-12
     "jade": "~1.11.0",
     "morgan": "~1.9.0"
   }
-}</pre>
+}
+        </pre>
       </li>
       <li>/bin/www : 서버구동을 위한 코드가 기록되어있다.<br>
       => 익스프레스 서버설정이 코딩된 app.js파일을 가져와 node의 HTTP객체와 연동하는 작업이 이뤄진다.
@@ -155,7 +157,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-module.exports = router;</pre>
+module.exports = router;
+        </pre>
       </li>
       <li>/views/index.jade : 템플릿파일인 제이드(Jade) 파일이다.
         <pre class="prettyprint">
@@ -163,7 +166,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}</pre>
+  p Welcome to #{title}
+        </pre>
       </li>
       <li>/public : 정적파일이 저장되어 있으며 javascripts, images, stylesheets로 구성됨.</li>
       <li>/node_modules : 위에서 'npm install'을 실행한 경우 생성되는 폴더</li>
