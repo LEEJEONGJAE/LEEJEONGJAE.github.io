@@ -96,7 +96,19 @@ date:   2019-03-12
   }
 }
 </code></pre>
-      </li>    
+      </li>
+      <li>bin/www : 서버구동을 위한 코드가 기록되어있다.<br>
+      => 익스프레스 서버설정이 코딩된 app.js파일을 가져와 node의 HTTP객체와 연동하는 작업이 이뤄진다.
+      </li>
+      <li>app.js : 익스프레스 설정이 코딩된 파일(bin/www 에서 사용됨)
+        <ul class="circle lm30">
+          <li>morgan : 클라이언트의 HTTP요청정보를 로깅하기 위한 모듈</li>
+          <li>body-parser : 클라이언트의 HTTP요청 중 POST요청의 body데이터에 접근하기 위한 모듈</li>
+          <li>cookie-parser : 접속한 클라이언트의 쿠키정보에 접근하기 위한 모듈</li>
+          <li>express.static() : 정적파일호스팅을 위한 경로설정</li>
+          <li>app.use('/', routes) : 라우팅 설정. 세부라우팅은 '/routes'폴더에 구현됨</li>
+        </ul>
+      </li>
     </ul>
   </li>  
 </ul>
