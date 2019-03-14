@@ -87,7 +87,7 @@ date:   2019-03-12
     <ul class="disc lm30">
       <li>express 구조
         <pre class="prettyprint">
-    .
+/
 ├── app.js
 ├── bin
 │   └── www
