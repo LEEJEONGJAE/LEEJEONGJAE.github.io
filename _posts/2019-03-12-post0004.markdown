@@ -34,7 +34,7 @@ date:   2019-03-12
       </li>
       <li>리눅스 : 'sudo npm install pm2 -g'<br>
         (* '-g'는 global의 약자로 어디에서는 pm2를 실행가능하게끔 해준다. )
-        <pre><code class="language-node">> sudo npm install pm2 -g</code></pre>
+        <div class="language-node"><pre class="highlight"><code class="highlight">> sudo npm install pm2 -g</code></pre></div>
       </li>        
     </ul>
   </li>
@@ -114,7 +114,7 @@ date:   2019-03-12
         </ul>
       </li>
       <li>/routes : 라우팅을 위한 폴더이다.. 라우팅리소스 별로 모듈을 만들어 라우팅로직을 각 파일에 구현한다.
-        <pre><code class="language-javascript">
+        <div class="language-javascript"><pre class="highlight"><code class="highlight">> sudo npm install pm2 -g</code></pre></div>
 //index.js
 var express = require('express');
 var router = express.Router();
@@ -141,7 +141,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-        </code></pre>
+        </code></pre></div>
       </li>
       <li>/public : 정적파일이 저장되어 있으며 javascripts, images, stylesheets로 구성됨.</li>
       <li>/node_modules : 위에서 'npm install'을 실행한 경우 생성되는 폴더</li>
