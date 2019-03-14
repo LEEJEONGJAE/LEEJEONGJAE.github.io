@@ -177,7 +177,7 @@ block content
 
 <br>
 
-**정리**
+**99. 정리**
 <ul class="circle lm20">
   <li>단 한줄의 명령어로 간단하게 npm을 설치할 수 있다.</li>
   <li>npm은 굉장히 다양해서 많이 사용해봐야 알 것 같다.</li>
