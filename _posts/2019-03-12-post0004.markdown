@@ -155,6 +155,22 @@ block content
   </li>  
 </ul>
 
+~~~console
+> console.log('test');
+~~~
+
+~~~command
+> console.log('test2');
+~~~
+
+~~~server
+> console.log('test3');
+~~~
+
+~~~linux
+> console.log('test4');
+~~~
+
 **정리**
 <div class="summary">
    <ul>
