@@ -148,8 +148,8 @@ req	: 클라이언트 요청정보를 담은 객체
 res	: 요청한 클라이어트로 응답을 위한 객체
 next: 다음 로직 수행을 위한 함수명
 
-//get요청에 대한 라우팅 : router.get(url,callback)
-//get요청에 대한 라우팅 : router.post(url,callback)
+//get요청에 대한 라우팅   : router.get(url,callback)
+//post요청에 대한 라우팅  : router.post(url,callback)
 */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
