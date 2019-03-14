@@ -114,7 +114,10 @@ date:   2019-03-12
         </ul>
       </li>
       <li>/routes : 라우팅을 위한 폴더이다.. 라우팅리소스 별로 모듈을 만들어 라우팅로직을 각 파일에 구현한다.
-        <div class="language-javascript"><pre class="highlight"><code class="highlight">
+        <div class="language-javascript highlighter-rouge">
+        <div class="highlight">
+        <pre class="highlight">
+        <code>
 //index.js
 var express = require('express');
 var router = express.Router();
@@ -132,7 +135,10 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-        </code></pre></div>
+        </code>
+        </pre>
+        </div>
+        </div>
       </li>
       <li>/views/index.jade : 템플릿파일인 제이드(Jade) 파일이다.
         <pre><code class="language-jade">
@@ -148,12 +154,6 @@ block content
     </ul>
   </li>  
 </ul>
-
-~~~javascript
-var test =""
-function test2(){
-}
-~~~
 
 **정리**
 <div class="summary">
