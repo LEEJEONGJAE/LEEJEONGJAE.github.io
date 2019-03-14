@@ -4,7 +4,7 @@ title:  "[0002][JAVA] AES128 Util"
 date:   2019-02-28
 ---
 
-~~~java
+<pre class="prettyprint">
 package ljj.com.otnweo;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -57,7 +57,7 @@ public class AES128Utils {
     }    
 
 }
-~~~
+</pre>
 
 **정리**
 <div class="summary">
