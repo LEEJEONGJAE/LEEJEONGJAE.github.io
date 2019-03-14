@@ -23,12 +23,12 @@ date:   2019-03-12
 </ul>
 
 **2. pm2(서버관리 패키지) 사용하기**
-<ul class="disc lm20">
+<ul class="circle lm20">
   <li>pm2 : 프로세스관리패키지(process manager)</li>
   <li>url : http://pm2.keymetrics.io</li>
   <li>프로세스(웹서버)를 편리하게 관리할 수 있다.</li>
   <li>pm2 설치
-    <ul class="circle lm30">
+    <ul class="disc lm30">
       <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
         <pre><code class="language-node">> npm install pm2 -g</code></pre>
       </li>
@@ -39,7 +39,7 @@ date:   2019-03-12
     </ul>
   </li>
   <li>pm2 주요명령어
-    <ul class="circle lm30">
+    <ul class="disc lm30">
       <li>웹서버 실행 : 'pm2 start main.js --watch'<br>
         ('--watch'옵션은 hot deploy 기능을 의미함, 'pm2 start main.js'만으로도 서버실행은 가능.)
         <pre><code class="language-node">> pm2 start main.js --watch</code></pre>
@@ -61,7 +61,7 @@ date:   2019-03-12
 </ul>
 
 **3. Express 사용하기**
-<ul class="disc lm20">
+<ul class="circle lm20">
   <li>Express : 가장 대표적인 웹프레임워크(WebFrameworks) 중 하나</li>
   <li>url : https://expressjs.com/ko/</li>
   <li>자주사용하는 기본적인 기능들을 포함한 프레임워크이다.</li>
@@ -75,7 +75,7 @@ date:   2019-03-12
     <pre><code class="language-node">> express myapp</code></pre>
   </li>
   <li>express 구조
-    <ul class="circle lm30">
+    <ul class="disc lm30">
       <li>package.json : app에서 사용될 모듈들의 정보를 설정하는 파일<br>
         (maven의 pom.xml의 역할을 하는 설정파일로 보임)
         <pre><code class="language-xml">
