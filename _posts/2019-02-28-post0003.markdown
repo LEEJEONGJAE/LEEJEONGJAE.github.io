@@ -68,7 +68,7 @@ app.listen(3000); // port number (ex. http://localhost:3000)
   <li>웹서버를 간단한 js소스로 구현할 수 있다.</li>
   <li>nodejs는 java에 비해서 굉장히 가볍다</li>
   <li>출처
-    <ul class="circle lm30">
+    <ul class="disc lm30">
       <li>https://opentutorials.org</li>
     </ul>
   </li>
