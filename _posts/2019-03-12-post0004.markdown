@@ -5,12 +5,18 @@ date:   2019-03-12
 ---
 
 **0. what is npm?**
+
 <br>
+
 **=> node pakage manager**
+
 <br>
+
 **=> nodejs에서 다양한 모듈들을 사용할 수 있게 해주는 기능**
+
 <br>
 <br>
+
 **1. npm 설치하기**
 <ul class="circle lm20">
   <li>'npm install [pakage명]' : 패키지명을 입력하면 해당 패키지가 설치됨
@@ -21,6 +27,8 @@ date:   2019-03-12
     <pre class="prettyprint">> npm install</pre>
   </li>
 </ul>
+
+<br>
 
 **2. pm2(서버관리 패키지) 사용하기**
 <ul class="circle lm20">
@@ -59,6 +67,8 @@ date:   2019-03-12
     </ul>
   </li>  
 </ul>
+
+<br>
 
 **3. Express 사용하기**
 <ul class="circle lm20">
@@ -169,6 +179,8 @@ block content
     </ul>
   </li>  
 </ul>
+
+<br>
 
 **정리**
 <div class="summary">
