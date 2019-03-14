@@ -74,6 +74,10 @@ date:   2019-03-12
     => 하위 내용은 자동으로 생성된다.
     <pre><code class="language-node">> express myapp</code></pre>
   </li>
+  <li>생성된 app경로에서 'npm install' 실행<br>
+    => app경로에 'node_modules'폴더가 생성됨.
+    <pre><code class="language-node">> npm install</code></pre>
+  </li>
   <li>express 구조
     <ul class="disc lm30">
       <li>package.json : app에서 사용될 모듈들의 정보를 설정하는 파일<br>
@@ -140,6 +144,7 @@ block content
         </code></pre>
       </li>
       <li>/public : 정적파일이 저장되어 있으며 javascripts, images, stylesheets로 구성됨.</li>
+      <li>/node_modules : 위에서 'npm install'을 실행한 경우 생성되는 폴더
     </ul>
   </li>  
 </ul>
