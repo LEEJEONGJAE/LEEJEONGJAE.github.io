@@ -110,12 +110,19 @@ date:   2019-03-12
         </ul>
       </li>
       <li>routes : 라우팅을 위한 폴더이다.. 라우팅리소스 별로 모듈을 만들어 라우팅로직을 각 파일에 구현한다.
-        <pre><code class="language-xml">
+        <pre><code class="language-javascript">
 //index.js
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET home page.
+req	: 클라이언트 요청정보를 담은 객체
+res	: 요청한 클라이어트로 응답을 위한 객체
+next: 다음 로직 수행을 위한 함수명
+
+//get요청에 대한 라우팅 : router.get(url,callback)
+//get요청에 대한 라우팅 : router.post(url,callback)
+*/
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
