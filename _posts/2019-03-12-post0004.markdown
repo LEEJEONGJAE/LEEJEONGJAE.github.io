@@ -149,6 +149,12 @@ block content
   </li>  
 </ul>
 
+~~~javascript
+var test =""
+function test2(){
+}
+~~~
+
 **정리**
 <div class="summary">
    <ul>
