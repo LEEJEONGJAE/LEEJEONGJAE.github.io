@@ -14,11 +14,9 @@ $('#chk1').prop("checked", true);		// id로 checked
 </pre>
 
 **정리**
-<div class="summary">
-<ul>
+<ul class="circle lm20">
   <li>attr/prop의 차이점 => attr : HTML의 속성(attribute) / prop : JavaScript의 프로퍼티(property)</li>
   <li>attr로 checked 값을 가져올때는 문자열형태("checked")로 넘어오고, prop로 가져올때는 boolean(true/false)형태로 넘어온다고 한다.</li>
   <li>jquery를 사용하여 attr을사용하는 경우 index값으로 checked값을 가져올때 undefined로 넘어와서 prop로 처리하려 해결.</li>
   <li>jquery가 javascript기반이므로 prop를 사용하는게 더 안정적인 것 같아서 전부 prop로 처리.</li>
 </ul>
-</div>
