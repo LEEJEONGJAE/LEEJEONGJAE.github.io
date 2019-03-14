@@ -44,7 +44,7 @@ date:   2019-03-12
   <li>pm2 주요명령어
     <ul class="disc lm30">
       <li>웹서버 실행 : 'pm2 start main.js --watch'<br>
-        => '--watch'옵션은 hot deploy 기능을 의미함, 'pm2 start main.js'만으로도 서버실행은 가능.
+        => '--watch'옵션은 hot deploy 기능을 의미하며 생략 가능.
         <pre class="prettyprint">> pm2 start main.js --watch</pre>
       </li>
       <li>웹서버 종료 : 'pm2 stop main'<br>
