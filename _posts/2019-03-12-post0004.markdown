@@ -24,7 +24,9 @@ date:   2019-03-12
 
 **2. pm2(서버관리 패키지) 사용하기**
 <ul class="disc lm20">
+  <li>pm2 : 프로세스관리패키지(process manager)</li>
   <li>url : http://pm2.keymetrics.io</li>
+  <li>프로세스(웹서버)를 편리하게 관리할 수 있다.</li>
   <li>pm2 설치
     <ul class="circle lm30">
       <li>윈도우 : 관리자권한으로 cmd 실행 > 'npm install pm2 -g'
@@ -54,6 +56,59 @@ date:   2019-03-12
         (어떤 프로세스가 실행중인지 확인할 수 있다.)
         <pre><code class="language-node">> pm2 log</code></pre>
       </li>        
+    </ul>
+  </li>  
+</ul>
+
+**3. Express 사용하기**
+<ul class="disc lm20">
+  <li>Express : 가장 대표적인 웹프레임워크(WebFrameworks) 중 하나</li>
+  <li>url : https://expressjs.com/ko/</li>
+  <li>자주사용하는 기본적인 기능들을 포함한 프레임워크이다.</li>
+  <li>Express 설치 : 'npm install express -g' 입력<br>
+    => express를 전역(-g)에서 사용할 수 있도록 설치
+    <pre><code class="language-node">> npm install express -g</code></pre>
+  </li>
+  <li>'express [app명]' 실행<br>
+    => 현재 경로에서 [app명]으로 app를 생성한다.
+    => 하위 내용은 자동으로 생성된다.
+    <pre><code class="language-node">> express myapp</code></pre>
+  </li>
+  <li>express 구조
+    <ul class="circle lm30">
+      <li>package.json : app에서 사용될 모듈들의 정보를 설정하는 파일<br>
+        (maven의 pom.xml에서 dependency를 설정하는 것과 유사해보임)
+        <pre><code class="language-xml">
+  {
+  "name": "web2-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-n/Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-n/Nodejs/issues"
+  },
+  "homepage": "https://github.com/web-n/Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "sanitize-html": "^1.18.2"
+  }
+}
+</code></pre>
+      </li>    
     </ul>
   </li>  
 </ul>
