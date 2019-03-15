@@ -24,7 +24,8 @@ date:   2019-03-14
   <li>+연산자
     <pre class="prettyprint">
     String str = "a" + "b" + "c";</pre>
-    => java에서 concat 메소드는 사용될때마다 매번 새로운 인스턴스를 생성한다.
+    => java1.5버전 이전에서는 concat 메소드처럼 사용할때마다 인스턴스를 생성했지만, java1.5버전부터는 컴파일단계에서 StringBuilder로 컴파일되도록 변경됨.
+    => StringBuilder의 성능과 가독성이 좋아 가장 흔히 사용된다.
   </li>
 
 </ul>
