@@ -9,6 +9,7 @@ date:   2019-02-28
 => AES암호화는 128bit, 256bit 두가지방식으로 나뉜다.
 => 암/복호화시에는 암호화key가 필요하며, 암호화키의 길이는 각각 128bit(16Byte), 256bit(32Byte)이다.
 <br>
+<br>
 **1. AES256 필수library**
 <ul class="circle lm20">
   <li>commons-codec-1.10.jar : '프로젝트 라이브러리 경로/'에 복사</li>
@@ -20,7 +21,7 @@ date:   2019-02-28
     </ul>
   </li>
 </ul>
-
+<br>
 **2. Java 소스 샘플**
 <pre class="prettyprint">
 package ljj.com.otnweo;
