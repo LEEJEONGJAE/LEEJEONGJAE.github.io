@@ -11,7 +11,7 @@ date:   2019-02-28
   <li>AES256 필수library
     <ul class="disc lm30">
       <li>commons-codec-1.10.jar : '프로젝트 라이브러리 경로/'에 복사</li>
-      <li>jce_policy jar추가 : jdk버전에 맞게 다운로드 후 'JDK경로/jre/lib/security/'에 'local_policy.jar', 'US_export_policy.jar' 복사
+      <li>jce_policy jar추가 : jdk버전에 맞게 다운로드 후 '${JAVA_HOME}/jre/lib/security/'에 'local_policy.jar', 'US_export_policy.jar' 복사
         <ul class="circle lm30">
 	  <li>jdk1.6 : https://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html</li>
 	  <li>jdk1.7 : https://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html</li>
