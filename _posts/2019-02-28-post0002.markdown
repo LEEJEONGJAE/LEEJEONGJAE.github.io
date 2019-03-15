@@ -7,7 +7,6 @@ date:   2019-02-28
 **0. AES암호화**
 <ul class="circle lm20">
   <li>AES암호화는 128bit, 256bit 두가지방식으로 나뉜다.</li>
-  <li>암/복호화시에는 암호화key가 필요하며, 암호화키의 길이는 각각 128bit(16Byte), 256bit(32Byte)이다.</li>
   <li>AES256 필수library
     <ul class="disc lm30">
       <li>commons-codec-1.10.jar : '프로젝트 라이브러리 경로/'에 복사</li>
@@ -33,9 +32,6 @@ public class AES128Utils {
 	
 	/** AES128 암호화키 (16자리) */
 	public static String enc_key_128 = "1234567890123456";
-
-	/** AES128 암호화키 (32자리) */
-	public static String enc_key_256 = "12345678901234567890123456789012";
 	
 	/**
 	 * AES128 암호화
