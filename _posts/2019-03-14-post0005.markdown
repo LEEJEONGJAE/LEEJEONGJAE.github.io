@@ -37,7 +37,7 @@ date:   2019-03-14
   <li></li>
   <li>출처
     <ul class="disc lm30">
-      <li>https://ryan-han.com/post/2018/etc/stringconcat/</li>
+      <li>https://ryan-han.com/post/2018/etc/stringconcat</li>
     </ul>
   </li>
 </ul>
