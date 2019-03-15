@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "[0007][AWS] AWS 시작하기"
+date:   0000-00-00
+---
+
+**0. AWS ?**
+<br>
+=> 
+
+<ul class="circle lm20">
+  <li>
+    <pre class="prettyprint"></pre>
+  </li>
+</ul>
+
+**99. 정리**
+<ul class="circle lm20">
+  <li>내용정리중</li>
+  <li>출처
+    <ul class="disc lm30">
+      <li>http://3orento.tistory.com/53</li>
+      <li>https://steemit.com/kr/@asbear/aws-1</li>
+    </ul>
+  </li>
+</ul>
