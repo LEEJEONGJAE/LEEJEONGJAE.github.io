@@ -21,7 +21,7 @@ date:   2019-02-28
   </li>
 </ul>
 
-**2. Java 소스 **
+**2. Java 소스 샘플**
 <pre class="prettyprint">
 package ljj.com.otnweo;
 import javax.crypto.Cipher;
