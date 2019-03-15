@@ -32,7 +32,10 @@ import javax.crypto.spec.SecretKeySpec;
 public class AES128Utils {
 	
 	/** AES128 암호화키 (16자리) */
-	public static String key = "TEST123456789012";
+	public static String enc_key_128 = "1234567890123456";
+
+	/** AES128 암호화키 (32자리) */
+	public static String enc_key_256 = "12345678901234567890123456789012";
 	
 	/**
 	 * AES128 암호화
@@ -43,7 +46,7 @@ public class AES128Utils {
 	 */
     public static byte[] encrypt(byte[] toencrypt) throws Exception {
 
-        SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
+        SecretKeySpec skeySpec = new SecretKeySpec(enc_key_128.getBytes("UTF-8"), "AES");
 
         Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
 
@@ -64,7 +67,7 @@ public class AES128Utils {
      
     public static byte[] decrypt( byte[] encrypted) throws Exception {
 
-        SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
+        SecretKeySpec skeySpec = new SecretKeySpec(enc_key_128.getBytes("UTF-8"), "AES");
 
         Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
 
