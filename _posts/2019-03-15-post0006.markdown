@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "[0006][Docker] Docker 시작하기"
+date:   2019-03-15
+---
+
+**0. Docker ?**
+=> 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼
+
+<ul class="circle lm20">
+  <li>
+    <pre class="prettyprint"></pre>
+  </li>
+</ul>
+
+**99. 정리**
+<ul class="circle lm20">
+  <li>내용정리중</li>
+  <li>출처
+    <ul class="disc lm30">
+      <li>https://aws.amazon.com/ko/docker/</li>
+      <li>https://docs.genesys.com/Documentation/System/8.5.x/DDG/Welcome</li>
+    </ul>
+  </li>
+</ul>
