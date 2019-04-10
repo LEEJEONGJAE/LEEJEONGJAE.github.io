@@ -64,7 +64,6 @@ date:   2019-04-10
 
 **99. 정리**
 <ul class="circle lm20">
-  <li>내용정리중</li>
   <li>출처
     <ul class="disc lm30">
       <li>https://118k.tistory.com/458?category=451198</li>
