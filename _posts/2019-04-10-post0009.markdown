@@ -1,72 +1,16 @@
 ---
 layout: post
-title:  "[0009][JAVA] WSDL Client 샘플페이지 자동 
+title:  "[0009][JAVA] WSDL Client 샘플페이지 자동 생성
 date:   2019-04-10
 ---
 
-**0. Object.equals() / String.equals() 차이점**
-<br>
-
-<ul class="circle lm20">
-  <li>Object.equals() : 객체의 주소값을 비교 ('=='과 동일, method 안에서 '=='으로 비교)
-    <pre class="prettyprint">public boolean equals(Object obj) {
-
-        return (this == obj);
-
-    }
-    </pre>
-  </li>
-  <li>String.equals() : 문자열의 char 를 하나하나 비교 (return : true(일치) / false(불일치))
-    <pre class="prettyprint">public boolean equals(Object anObject) {
-
-        if (this == anObject) {
-
-            return true;
-
-        }
-
-        if (anObject instanceof String) {
-
-            String anotherString = (String)anObject;
-
-            int n = value.length;
-
-            if (n == anotherString.value.length) {
-
-                char v1[] = value;
-
-                char v2[] = anotherString.value;
-
-                int i = 0;
-
-                while (n-- != 0) {
-
-                    if (v1[i] != v2[i])
-
-                        return false;
-
-                    i++;
-
-                }
-
-                return true;
-
-            }
-
-        }
-
-        return false;
-
-    }
-    </pre>
-  </li>
-</ul>
+**0. WSDL Client 샘플페이지 자동 생성**
 
 **99. 정리**
 <ul class="circle lm20">
   <li>출처
     <ul class="disc lm30">
-      <li>https://118k.tistory.com/458?category=451198</li>
+      <li>http://blog.naver.com/PostView.nhn?blogId=myungjae1216&logNo=120190779345</li>
     </ul>
   </li>
 </ul>
