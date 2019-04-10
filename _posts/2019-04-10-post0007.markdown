@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[0007][AWS] AWS 시작하기"
-date:   0000-00-00
+date:   2019-04-10
 ---
 
 **0. AWS ?**
@@ -16,7 +16,7 @@ date:   0000-00-00
 
 **99. 정리**
 <ul class="circle lm20">
-  <li>내용정리중</li>
+  <li></li>
   <li>출처
     <ul class="disc lm30">
       <li>http://3orento.tistory.com/53</li>
