@@ -18,4 +18,3 @@ Find a demo [here](http://nikrich.github.io/jekyll-wing-template/#)
 3. Use ```jekyll serve``` to run the project
 4. Make your changes and test
 5. Submit a pull request
-6. git clone test
