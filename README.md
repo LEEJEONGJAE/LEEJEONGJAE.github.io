@@ -6,6 +6,8 @@ Light and beautiful blog style template for jekyll
 
 ![preview](http://i.imgur.com/UzW9sxd.jpg)
 
+[![Build Status](https://travis-ci.org/LEEJEONGJAE/LEEJEONGJAE.github.io.svg?branch=master)](https://travis-ci.org/LEEJEONGJAE/LEEJEONGJAE.github.io)
+
 ## Demo
 Find a demo [here](http://nikrich.github.io/jekyll-wing-template/#)
 
