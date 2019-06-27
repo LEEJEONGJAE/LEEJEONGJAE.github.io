@@ -1,0 +1,4 @@
+languge: java
+branches:
+only:
+-master
