@@ -1,34 +1,32 @@
 ---
 layout: post
-title:  "[0006][nodejs] Vue.js & Express 프로젝트 연동(1)"
+title:  "[0006][nodejs] Vuejs & Express 프로젝트 연동(1)"
 date:   2019-03-15
 ---
 
-**0. Vue.js ?**
+**1. Vuejs 프로젝트**
 <br>
 => 
 
 <ul class="circle lm20">
-  <li>express 설치
+  <li>vue-cli 설치
     <pre class="prettyprint">
-    String str = "a".concat("b").concat("c");</pre>
-    => java에서 concat 메소드는 사용될때마다 매번 새로운 인스턴스를 생성한다.
+    npm install -g vue-cli</pre>
   </li>
-  <li>StringBuilder
+  <li>vue webpack 프로젝트 설치
     <pre class="prettyprint">
-    String str = new StringBuilder().append("a").append("b").append("c").toString();</pre>
-    => StringBuilder는 내부적으로 문자열을 가지고 문자열을 변경하는 메서드를 제공한다.
-    <br>
-    => concat 메소드와는 다르게 한번의 인스턴스 생성으로 문자열을 연결할 수 있다.
+    vue init webpack front #vue webpack</pre>
+    => vue init webpack [디렉토리명] #vue webpack
   </li>
-  <li>StringBuilder vs StringBuffer
-    => 동기화부분 // 추가확인필요
-  </li>
-  <li>+연산자
+  <li>npm install
     <pre class="prettyprint">
-    String str = "a" + "b" + "c";</pre>
-    => java1.5버전 이전에서는 concat 메소드처럼 사용할때마다 인스턴스를 생성했지만, java1.5버전부터는 컴파일단계에서 StringBuilder로 컴파일되도록 변경됨.
-    => StringBuilder의 성능과 가독성이 좋아 가장 흔히 사용된다.
+    cd front
+    npm install</pre>
+  </li>
+  <li>vue 프로젝트 실행/확인
+    <pre class="prettyprint">
+    npm run dev</pre>
+    => http://localhost:8080 접속하여 확인
   </li>
 </ul>
 
