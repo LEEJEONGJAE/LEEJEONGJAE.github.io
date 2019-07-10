@@ -8,9 +8,12 @@ ul, ol {
 
 ul.circle {
   list-style: circle;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 ul.disc{  
   list-style: disc;
+  white-space: pre-wrap;
+  word-break: break-word;
 } 
-
