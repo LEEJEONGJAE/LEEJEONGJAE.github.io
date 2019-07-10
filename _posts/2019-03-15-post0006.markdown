@@ -10,7 +10,8 @@ date:   2019-03-15
   <li>vue-cli 설치
 
 <pre class="prettyprint">
-npm install -g vue-cli</pre>
+npm install -g vue-cli
+</pre>
 
   </li>
   <li>vue webpack 프로젝트 설치
@@ -21,9 +22,12 @@ vue init webpack front #vue webpack</pre>
     => vue init webpack [디렉토리명] #vue webpack
   </li>
   <li>npm install
-    <pre class="prettyprint">
-    cd front
-    npm install</pre>
+
+<pre class="prettyprint">
+cd front
+npm install
+</pre>
+
   </li>
   <li>vue 프로젝트 실행/확인
     <ul class="disc lm20">
