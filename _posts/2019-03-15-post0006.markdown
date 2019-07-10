@@ -159,4 +159,4 @@ replace_html = code_html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;");
 $('.prettyprint').html(replace_html);
 
 
-</sciprt>
+</script>
