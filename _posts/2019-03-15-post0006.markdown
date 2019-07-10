@@ -46,7 +46,7 @@ npm run dev</pre>
     <ul class="disc lm20">
       <li>front/src/components에 IndexPage.vue 생성
 
-<pre class="prettyprint">
+<pre class="prettyprint htmltag">
 //IndexPage.vue
 <template>
 <h1>index</h1>
@@ -153,10 +153,10 @@ Vue.use(Vuetify);
 
 <script>
 
-var code_html = $('.prettyprint').html();
+var code_html = $('.htmltag').html();
 var replace_html = '';
 replace_html = code_html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;"); 
-$('.prettyprint').html(replace_html);
+$('.htmltag').html(replace_html);
 
 
 </script>
