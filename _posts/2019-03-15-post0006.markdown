@@ -17,9 +17,10 @@ npm install -g vue-cli
   <li>vue webpack 프로젝트 설치
 
 <pre class="prettyprint">
-vue init webpack front #vue webpack</pre>
+//vue init webpack [디렉토리명] #vue webpack
+vue init webpack front #vue webpack
+</pre>
 
-    => vue init webpack [디렉토리명] #vue webpack
   </li>
   <li>npm install
 
@@ -229,15 +230,140 @@ export default {
   </li>
 </ul>
 
+**4. vuejs & express 연동**
+<br>
+<ul class="circle lm20">
+  <li>express 프로젝트 생성 
 
+<pre class="prettyprint">
+npm install express-generator -g
+//express --view=pug [디렉토리명]
+express --view=pug back
+</pre>
+
+  </li>
+  <li>npm install
+
+<pre class="prettyprint">
+cd back
+npm install
+/pre>
+
+  </li>
+  <li>vue 프로젝트 실행/확인
+    <ul class="disc lm20">
+      <li>프로젝트 실행
+
+<pre class="prettyprint">
+cd back
+SET DEBUG=back:* & npm start
+</pre>
+
+      </li>
+      <li>http://localhost:3000 접속</li>
+    </ul>
+  </li>
+  <li>/front/config/index.js 내용 변경
+    <ul class="disc lm20">
+      <li>build 블록의 윗부분을 아래와 같이 변경
+
+<pre class="prettyprint">
+  build: {
+    // Template for index.html
+    //index: path.resolve(__dirname, '../dist/index.html'),		// 기존소스
+    index: path.resolve(__dirname, '../../back/public/index.html'),	// 변경소스
+
+    // Paths
+    //assetsRoot: path.resolve(__dirname, '../dist'),			// 기존소스
+    assetsRoot: path.resolve(__dirname, '../../back/public'),		// 변경소스
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '/',
+</pre>
+
+      </li>
+    </ul>
+  </li>
+  <li>vuejs webpack build
+    <ul class="disc lm20">
+      <li>build 블록의 윗부분을 아래와 같이 변경
+
+<pre class="prettyprint">
+cd front
+npm run build
+</pre>
+
+      </li>
+      <li>명렁어가 종료되면 back/public/ 경로에 build된다.</li>
+      <li>확인을 위해 back/public 폴더 안의 내용을 지우고 명령어를 실행하도록 한다.</li>
+      <li>express 서버 동작시에는 오류발생위험이 있으므로 서버 종료 후 빌드.</li>
+    </ul>
+  </li>
+  <li>back/routes/index.js 파일 수정
+
+<pre class="prettyprint">
+//index.js
+var express = require('express');
+var path = require('path');
+var router = express.Router();
+
+router.get('/', function (req, res, next) {
+  res.sendFile(path.join(__dirname, '../public', 'index.html'))
+});
+
+module.exports = router;
+</pre>
+  </li>
+  <li>connect-history-api-fallback 설치
+    <ul class="disc lm20">
+      <li>npm install
+
+<pre class="prettyprint">
+cd back
+npm install connect-history-api-fallback -save
+</pre>
+
+      </li>
+      <li>back/app.js 파일에 아래 소스 추가
+
+<pre class="prettyprint">
+app.use(require('connect-history-api-fallback')())c
+</pre>
+      
+      </li>
+    </ul>
+  </li>
+  <li>vue 프로젝트 실행/확인
+    <ul class="disc lm20">
+      <li>프로젝트 실행
+
+<pre class="prettyprint">
+cd back
+SET DEBUG=back:* & npm start
+</pre>
+
+      </li>
+      <li>http://localhost:3000 접속</li>
+    </ul>
+  </li>
+</ul>
 
 **99. 정리**
 <ul class="circle lm20">
-  <li>내용정리중</li>
+  <li>깔끔한 express&vuejs 연동예제가 있어서 우선적으로 학습하고 vuetify의 template을 추가하였다.</li>
+  <li>api예제를 위해 mysql연동을 추가할 예정</li>
   <li>출처
     <ul class="disc lm30">
-      <li>https://aws.amazon.com/ko/docker/</li>
-      <li>https://docs.genesys.com/Documentation/System/8.5.x/DDG/Welcome</li>
+      <li>https://blog.hanumoka.net/2018/11/13/vue-20181113-vue-how-to-make-vue-express-project/#vue-express의-데이터-통신해보기</li>
+      <li>http://vuejs.kr/2017/02/05/express-with-vue/</li>
+      <li>https://blog.hanumoka.net/2018/08/26/vue-20180826-web-webpack/</li>
+      <li>https://joshua1988.github.io/web-development/vuejs/vue-structure/</li>
+      <li>https://m.blog.naver.com/PostView.nhn?blogId=clay1987&logNo=221397398009&proxyReferer=https%3A%2F%2Fwww.google.com%2F</li>
+      <li>https://vuetifyjs.com/ko/framework/pre-made-layouts</li>
+      <li>https://vuetifyjs.com/ko/examples/layouts/complex</li>
+      <li>https://vuetifyjs.com/ko/getting-started/quick-start</li>
+      <li>https://codepen.io/anon/pen/NZYBmL</li>
+      <li>https://devzeroty.tistory.com/entry/Vuejs-20-Template-사용시-주의사항</li>
+      <li>https://ajh322.tistory.com/107</li>
     </ul>
   </li>
 </ul>
