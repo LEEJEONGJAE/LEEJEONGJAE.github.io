@@ -56,12 +56,12 @@ npm run dev</pre>
       </li>
       <li>front/src/components에 LoginPage.vue 생성
 
-<code class="html">
+<pre class="prettyprint">
 //IndexPage.vue
 &lt;template&gt;
 &lt;h1&gt;login&lt;/h1&gt;
 &lt;/template&gt;
-</code>
+</pre>
 
 
       </li>
