@@ -135,6 +135,96 @@ Vue.use(Vuetify);
 </pre>
 
   </li>
+  <li>App.vue 파일 수정(template 적용)
+
+<pre class="prettyprint htmlTag">
+//App.vue
+
+<template>
+  <v-app id="inspire">
+    
+    <!-- navigation -->
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      temporary
+    >
+      <v-list dense>
+        <v-list-tile @click.stop="right = !right">
+          <v-list-tile-action>
+            <v-icon>exit_to_app</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Open Temporary Drawer</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+    </v-navigation-drawer>
+
+    <!-- toolbar -->
+    <v-toolbar
+      color="blue-grey"
+      dark
+      fixed
+      app
+      clipped-right
+    >
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title>Toolbar</v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-toolbar>
+    
+    <!-- content -->
+    <v-content>
+      <v-container fluid fill-height>
+        <v-layout justify-center align-center>
+          <v-flex shrink>
+            <router-view/>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-content>
+
+    <!-- footer -->
+    <v-footer color="blue-grey" class="white--text" app>
+      <span>Vuetify</span>
+      <v-spacer></v-spacer>
+      <span>&copy; 2017</span>
+    </v-footer>
+
+  </v-app>
+ </template>
+
+<script>
+export default {
+  data(){
+    return{
+      drawer: true,
+      drawerRight: true,
+      right: false,
+      left: null
+    }
+  }
+}
+</script>
+</pre>
+
+  </li>
+  <li>front/index.html 에 vuetify관련css 추가
+
+<pre class="prettyprint htmlTag">
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+</pre>
+
+  </li>
+  <li>vue 프로젝트 실행/확인
+    <ul class="disc lm30">
+      <li>http://localhost:8080 접속</li>
+      <li>http://localhost:8080/loginPage 접속</li>
+    </ul>
+  </li>
+</ul>
 
 
 
