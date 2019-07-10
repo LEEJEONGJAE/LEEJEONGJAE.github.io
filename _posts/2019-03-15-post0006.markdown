@@ -157,7 +157,7 @@ $.each(function(){
   
 });
 
-$("input[name='htmltag']").each(function (i) {
+$(".htmltag").each(function (i) {
   var _html = $(this).html();
   var re_html;
   re_html = _html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;");
