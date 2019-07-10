@@ -56,13 +56,12 @@ npm run dev</pre>
       </li>
       <li>front/src/components에 LoginPage.vue 생성
 
-<pre class="prettyprint">
-//IndexPage.vue
-&lt;template&gt;
-&lt;h1&gt;login&lt;/h1&gt;
-&lt;/template&gt;
+<pre class="prettyprint htmltag">
+//LoginPage.vue
+<template>
+<h1>login</h1>
+</template>
 </pre>
-
 
       </li>
     </ul>
@@ -153,10 +152,16 @@ Vue.use(Vuetify);
 
 <script>
 
-var code_html = $('.htmltag').html();
-var replace_html = '';
-replace_html = code_html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;"); 
-$('.htmltag').html(replace_html);
 
+$.each(function(){
+  
+});
+
+$("input[name='htmltag']").each(function (i) {
+  var _html = $(this).html();
+  var re_html;
+  re_html = _html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;");
+  $(this).html(replace_html);
+});
 
 </script>
