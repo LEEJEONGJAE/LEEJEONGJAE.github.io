@@ -46,11 +46,11 @@ npm run dev</pre>
     <ul class="disc lm20">
       <li>front/src/components에 IndexPage.vue 생성
 
-<pre class="html">
+<pre class="prettyprint">
 //IndexPage.vue
-<template>
+&lt;template&gt;
 <h1>index</h1>
-</template>
+&lt;/template&gt;
 </pre>
 
       </li>
