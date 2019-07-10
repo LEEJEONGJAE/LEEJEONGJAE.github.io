@@ -49,7 +49,7 @@ npm run dev</pre>
 <pre class="prettyprint">
 //IndexPage.vue
 &lt;template&gt;
-<h1>index</h1>
+&lt;h1&gt;index&lt;/h1&gt;
 &lt;/template&gt;
 </pre>
 
@@ -58,9 +58,9 @@ npm run dev</pre>
 
 <code class="html">
 //IndexPage.vue
-<template>
-<h1>login</h1>
-</template>
+&lt;template&gt;
+&lt;h1&gt;login&lt;/h1&gt;
+&lt;/template&gt;
 </code>
 
 
