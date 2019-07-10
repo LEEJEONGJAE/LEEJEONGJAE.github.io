@@ -4,10 +4,8 @@ title:  "[0006][nodejs] Vuejs & Express 프로젝트 연동(1)"
 date:   2019-03-15
 ---
 
-**1. Vuejs 프로젝트**
+**1. Vuejs 프로젝트 설치**
 <br>
-=> 
-
 <ul class="circle lm20">
   <li>vue-cli 설치
     <pre class="prettyprint">
@@ -24,9 +22,80 @@ date:   2019-03-15
     npm install</pre>
   </li>
   <li>vue 프로젝트 실행/확인
-    <pre class="prettyprint">
-    npm run dev</pre>
-    => http://localhost:8080 접속하여 확인
+    <ul class="circle lm20">
+      <li>프로젝트 실행
+          <pre class="prettyprint">
+	  cd front
+	  npm run dev</pre>
+      </li>
+      <li>http://localhost:8080 접속</li>
+    </ul>
+  </li>
+</ul>
+
+**2. vue-router 설정**
+<br>
+<ul class="circle lm20">
+  <li>route할 vue파일 생성
+    <ul class="circle lm20">
+      <li>front/src/components에 IndexPage.vue 생성
+          <pre class="prettyprint">
+	   //IndexPage.vue
+	   <template>
+	     <h1>index</h1>
+	   </template></pre>
+      </li>
+      <li>front/src/components에 LoginPage.vue 생성
+          <pre class="prettyprint">
+	   //IndexPage.vue
+	   <template>
+	     <h1>login</h1>
+	   </template></pre>
+      </li>
+    </ul>
+  </li>
+  <li>route 설정
+    <ul class="circle lm20">
+      <li>src/router/index.js 수정
+          <pre class="prettyprint">
+		//IndexPage.vue
+		import Vue from 'vue'
+		import Router from 'vue-router'
+
+		Vue.use(Router)
+
+		import IndexPage from '@/components/IndexPage'
+		import LoginPage from '@/components/LoginPage'
+
+
+		export default new Router({
+		  mode: 'history',
+		  routes: [
+		    {
+		      path: '/',
+		      name: 'IndexPage',
+		      component: IndexPage
+		    },
+		    {
+		      path: '/loginPage',
+		      name: 'LoginPage',
+		      component: LoginPage
+		    }
+		  ]
+		})</pre>
+      </li>
+    </ul>
+  </li>
+  <li>vue 프로젝트 실행/확인
+    <ul class="circle lm20">
+      <li>프로젝트 실행
+          <pre class="prettyprint">
+	  cd front
+	  npm run dev</pre>
+      </li>
+      <li>http://localhost:8080 접속</li>
+      <li>http://localhost:8080/loginPage 접속</li>
+    </ul>
   </li>
 </ul>
 
