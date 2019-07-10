@@ -156,7 +156,7 @@ $(".htmltag").each(function (i) {
   var _html = $(this).html();
   var re_html;
   re_html = _html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;");
-  $(this).html(replace_html);
+  $(this).html(re_html);
 });
 
 </script>
