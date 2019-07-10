@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[0006][nodejs] Vuejs & Express 프로젝트 연동(1)"
+title:  "[0006][nodejs] Vuejs & Express 프로젝트 연동"
 date:   2019-03-15
 ---
 
@@ -48,9 +48,9 @@ npm run dev</pre>
 
 <pre class="prettyprint">
 //IndexPage.vue
-&lt;template&gt;
-&lt;h1&gt;index&lt;/h1&gt;
-&lt;/template&gt;
+<template>
+<h1>index</h1>
+</template>
 </pre>
 
       </li>
@@ -116,6 +116,29 @@ npm run dev</pre>
   </li>
 </ul>
 
+
+**3. vuetify template 적용**
+<br>
+<ul class="circle lm20">
+  <li>fornt폴더에서 vuetify 설치
+
+<pre class="prettyprint">
+cd front
+npm install vuetify --save
+</pre>
+
+  </li>
+  <li>/front/src/main.js 파일 수정 : main.js 상단에 아래 코드 추가
+
+<pre class="prettyprint">
+import Vuetify from 'vuetify';
+Vue.use(Vuetify);
+</pre>
+
+  </li>
+
+
+
 **99. 정리**
 <ul class="circle lm20">
   <li>내용정리중</li>
@@ -126,3 +149,14 @@ npm run dev</pre>
     </ul>
   </li>
 </ul>
+
+
+<script>
+
+var code_html = $('.prettyprint').html();
+var replace_html = '';
+replace_html = code_html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;"); 
+$('.prettyprint').html(replace_html);
+
+
+</sciprt>
