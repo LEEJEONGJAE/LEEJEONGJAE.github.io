@@ -1,16 +1,34 @@
 ---
 layout: post
-title:  "[0006][Docker] Docker 시작하기"
+title:  "[0006][nodejs] Vue.js & Express 프로젝트 연동(1)"
 date:   2019-03-15
 ---
 
-**0. Docker ?**
+**0. Vue.js ?**
 <br>
-=> 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼
+=> 
 
 <ul class="circle lm20">
-  <li>
-    <pre class="prettyprint"></pre>
+  <li>express 설치
+    <pre class="prettyprint">
+    String str = "a".concat("b").concat("c");</pre>
+    => java에서 concat 메소드는 사용될때마다 매번 새로운 인스턴스를 생성한다.
+  </li>
+  <li>StringBuilder
+    <pre class="prettyprint">
+    String str = new StringBuilder().append("a").append("b").append("c").toString();</pre>
+    => StringBuilder는 내부적으로 문자열을 가지고 문자열을 변경하는 메서드를 제공한다.
+    <br>
+    => concat 메소드와는 다르게 한번의 인스턴스 생성으로 문자열을 연결할 수 있다.
+  </li>
+  <li>StringBuilder vs StringBuffer
+    => 동기화부분 // 추가확인필요
+  </li>
+  <li>+연산자
+    <pre class="prettyprint">
+    String str = "a" + "b" + "c";</pre>
+    => java1.5버전 이전에서는 concat 메소드처럼 사용할때마다 인스턴스를 생성했지만, java1.5버전부터는 컴파일단계에서 StringBuilder로 컴파일되도록 변경됨.
+    => StringBuilder의 성능과 가독성이 좋아 가장 흔히 사용된다.
   </li>
 </ul>
 
