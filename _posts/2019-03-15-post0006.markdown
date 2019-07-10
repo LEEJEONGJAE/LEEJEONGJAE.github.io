@@ -238,15 +238,3 @@ export default {
     </ul>
   </li>
 </ul>
-
-
-<script>
-
-$(".htmltag").each(function (i) {
-  var _html = $(this).html();
-  var re_html = _html;
-  re_html = re_html.replace(/</gi, "&lt;").replace(/>/gi, "&gt;");
-  $(this).html(re_html);
-});
-
-</script>
