@@ -247,7 +247,7 @@ express --view=pug back
 <pre class="prettyprint">
 cd back
 npm install
-/pre>
+</pre>
 
   </li>
   <li>vue 프로젝트 실행/확인
