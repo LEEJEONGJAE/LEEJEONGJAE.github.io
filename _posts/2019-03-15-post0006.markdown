@@ -46,11 +46,12 @@ npm run dev</pre>
     <ul class="disc lm20">
       <li>front/src/components에 IndexPage.vue 생성
 
-<pre class="prettyprint">
+~~~
 //IndexPage.vue
 <template>
 <h1>index</h1>
-</template></pre>
+</template>
+~~~
 
       </li>
       <li>front/src/components에 LoginPage.vue 생성
@@ -60,6 +61,7 @@ npm run dev</pre>
 <template>
 <h1>login</h1>
 </template></pre>
+
 
       </li>
     </ul>
