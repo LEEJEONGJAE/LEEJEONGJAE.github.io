@@ -152,11 +152,6 @@ Vue.use(Vuetify);
 
 <script>
 
-
-$.each(function(){
-  
-});
-
 $(".htmltag").each(function (i) {
   var _html = $(this).html();
   var re_html;
