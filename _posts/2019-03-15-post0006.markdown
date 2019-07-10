@@ -195,7 +195,7 @@ Vue.use(Vuetify);
   </v-app>
  </template>
 
-<script>
+&lt;script&gt;
 export default {
   data(){
     return{
@@ -206,7 +206,7 @@ export default {
     }
   }
 }
-</script>
+&lt;/script&gt;
 </pre>
 
   </li>
