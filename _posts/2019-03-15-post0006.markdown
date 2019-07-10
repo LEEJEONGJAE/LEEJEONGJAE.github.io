@@ -137,7 +137,7 @@ Vue.use(Vuetify);
   </li>
   <li>App.vue 파일 수정(template 적용)
 
-<pre class="prettyprint htmlTag">
+<pre class="prettyprint htmltag">
 //App.vue
 
 <template>
@@ -212,7 +212,7 @@ export default {
   </li>
   <li>front/index.html 에 vuetify관련css 추가
 
-<pre class="prettyprint htmlTag">
+<pre class="prettyprint htmltag">
 &lt;link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
 &lt;link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
 </pre>
