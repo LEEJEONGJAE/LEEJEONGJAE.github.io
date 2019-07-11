@@ -106,7 +106,7 @@ export default new Router({
     </ul>
   </li>
   <li>vue 프로젝트 실행/확인
-    <ul class="circle lm20">
+    <ul class="disc lm20">
       <li>프로젝트 실행
 
 <pre class="prettyprint">
@@ -364,6 +364,7 @@ SET DEBUG=back:* & npm start
       <li>https://codepen.io/anon/pen/NZYBmL</li>
       <li>https://devzeroty.tistory.com/entry/Vuejs-20-Template-사용시-주의사항</li>
       <li>https://ajh322.tistory.com/107</li>
+      <li>https://yorr.tistory.com/12</li>
     </ul>
   </li>
 </ul>
