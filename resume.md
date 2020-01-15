@@ -64,8 +64,8 @@ permalink: /resume/
 						</div>
 						<li>개발업무</li>
 						<div class="list">
-						- 인터넷뱅킹 <br>
-						- 모바일뱅킹 이체
+						- 인터넷뱅킹 이체결과조회<br>
+						- 모바일뱅킹 이체 메뉴
 						</div>
 					</ul>
 				</td>
